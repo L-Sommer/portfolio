@@ -1,0 +1,776 @@
+{
+  "home": [
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 26,
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 304,
+        "w": 342,
+        "h": 26
+      },
+      "html": "<p>Art by</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 38,
+        "weight": "700",
+        "lineHeight": 38,
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "align": "center",
+        "transform": "uppercase"
+      },
+      "box": {
+        "x": 24,
+        "y": 342,
+        "w": 342,
+        "h": 38
+      },
+      "html": "<p>Lily Sommer</p>"
+    }
+  ],
+  "blank-1": [
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "start",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 410,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>About Me</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "start",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 819,
+        "w": 342,
+        "h": 562
+      },
+      "html": "<p>&nbsp; &nbsp;Art has been a part of my life for as long as I can remember. My mom studied graphic design, so our house was always filled with art supplies that I loved playing with. Her appreciation for design and visual storytelling shaped how I see the world around me, eventually inspiring me to try and create art myself.</p>\n\n<p>&nbsp; &nbsp;Since childhood, I've spent countless hours drawing, painting, and exploring ways to create. What began as a passion became an important way for me to interpret and connect with the world.</p>\n\n<p>&nbsp; &nbsp;I believe art is a continuous process of exploration rather than perfection. Each project is an opportunity to refine my skills, experiment with new ideas, and develop a stronger artistic voice. Whether working in traditional or digital media, I strive to create work that is thoughtful, intentional, and visually compelling.</p>"
+    }
+  ],
+  "blank-3": [
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 30,
+        "weight": "400",
+        "lineHeight": 33,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 3209,
+        "w": 342,
+        "h": 33
+      },
+      "html": "<h1>Past Works</h1>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 30,
+        "weight": "400",
+        "lineHeight": 33,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 48,
+        "y": 184,
+        "w": 294,
+        "h": 33
+      },
+      "html": "<h1>Past Works</h1>"
+    }
+  ],
+  "blank": [
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 30,
+        "weight": "400",
+        "lineHeight": 33,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "start",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 1449,
+        "w": 342,
+        "h": 33
+      },
+      "html": "<h1>Advanced Portfolio</h1>"
+    }
+  ],
+  "blank-2-1-1": [
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 48,
+        "y": 764,
+        "w": 294,
+        "h": 29
+      },
+      "html": "<h1>Green</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 48,
+        "y": 805,
+        "w": 294,
+        "h": 585
+      },
+      "html": "<p>My favorite color is the green that leaves turn as the sunlight glows through them. I've thought this since I was a little kid, walking through trails, going camping with my dad, and it still holds true today. Green is my favorite color. It represents life, nature, and a kind of freedom that I only feel when I'm outdoors. I feel so at peace and like myself with the wind blowing in my ears and green all around me. The feeling that I get when I look at nature was my inspiration for this piece. In a way, I feel that that sensation is my essence as a person. I wanted the leaves to have the faint glow of the sun filtered through them, and for the page to be covered in freeform doodles and stars. These are all things that speak to me, and paint that image of freedom, movement, and overwhelming peace.</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 3151,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>Technical Process</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 3191,
+        "w": 342,
+        "h": 562
+      },
+      "html": "<p>I grabbed a piece of paper, some newspaper, and some rubber cement, and I began to cut out words, pictures, and titles that stuck out to me. I wanted to create a sense of urgency or chaos to symbolize the outside world and the escape that nature offers by literally covering some of the buzzwords. I cut each piece of paper out with an Exacto knife, glued it down, and left it to dry. I then began to paint a picture of a few leaves with light showing through them using acrylic paint. I cut these pieces out as well and set them on top to mark their locations. I then painted and cut out a few stars, and doodled a few freeform shapes on my collage with some markers. I took all of the leaves and stars off and used the printmaking stamps to add some pattern and repetition to make the work look less barren, and some halftone effects to fill the space. I then glued everything on top of it and put it in a frame.</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 3857,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>Elements and Principles</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 3898,
+        "w": 342,
+        "h": 211
+      },
+      "html": "<p>For elements of art, I used primarily color, or emphasis of one color in order to make this project mean something. The excessive and exclusive use of green is what makes this piece exist. For principles of design, I used variety through the varied newspaper clippings, and the varied green painted pieces placed on top.</p>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 4148,
+        "w": 342,
+        "h": 94
+      },
+      "html": "<p>Critique 1:</p>\n\n<p>\"I like the idea, but it needs more. Try to add more layers\"</p>\n\n<p>-Ms. Johnson</p>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 4254,
+        "w": 342,
+        "h": 94
+      },
+      "html": "<p>Critique 2:</p>\n\n<p>\"Maybe you could use some pre-cut printmaking stamps to create pattern?\"</p>\n\n<p>-Ms. Johnson</p>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 4359,
+        "w": 342,
+        "h": 117
+      },
+      "html": "<p>Critique 3:</p>\n\n<p>\"I love the way its looking, and I love your emphasis on color, with the focus on a few specific tones.\"</p>\n\n<p>-Farah</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 4581,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>Overall Reflection</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 4622,
+        "w": 342,
+        "h": 328
+      },
+      "html": "<p>Materials: Newspaper, acrylic paint, sharpies</p>\n\n<p>​</p>\n\n<p>Processes: Collage of newspaper, acrylic painted pieces glued on top</p>\n\n<p>​</p>\n\n<p>Size: 11 in x 14 in</p>\n\n<p>​</p>\n\n<p>Image Citation: Inspired by leaves of different kinds of trees, paid special attention to the colors of the leaves and the glow effect that light gives, doodles of stars and freeform drawings inspired by cybercigilism.</p>"
+    }
+  ],
+  "blank-2-1": [
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 48,
+        "y": 709,
+        "w": 294,
+        "h": 86
+      },
+      "html": "<h1>We are shaped and fashioned by what we love</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 48,
+        "y": 807,
+        "w": 294,
+        "h": 632
+      },
+      "html": "<p>This painting of my converse in black and white attempts to show them colored on, stained, beat up and adored. I wear them everywhere, all the time, and I feel that they are a reflection of the deepest parts of me. The song lyrics, the quotes, the doodles, and so many other things about them are parts of me I share with the world. I love that I can carry a tiny bit of my art with me wherever I go. This painting is meant to reflect the quote \"we are shaped and fashioned by what we love\" from the book \"Steal Like an Artist\". To me, this quote is a description of what happens when you find something that resonates with you, whether it be a song, an animal, a shape, or a color, that that thing will continue to appear in your life. When we love things we allow them to make us into who we are. My converse are a collection of the things that mean the most to me.</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 2737,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>Technical Process</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 2777,
+        "w": 342,
+        "h": 421
+      },
+      "html": "<p>For this piece, I started with a blank canvas and I sketched out the photo I took of my own shoes. I then painted over it with acrylic paints, using almost entirely black and white (plus a little brown), to get the tones I wanted. I attempted to establish enough contrast to make the scene catch the viewer's eye, and to add deep enough shadows that the design was almost pulled off the page. after painting, I used a white chalk pencil to sketch the white designs on the shoe, and I ended up liking the texture and not painting over it like I originally planned. I then used a black thin sharpie to do the black details on the shoe, and I sealed the painting with a matte varnish.</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 3303,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>Elements and Principles</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 3343,
+        "w": 342,
+        "h": 164
+      },
+      "html": "<p>The primary element of art I used in this piece was value, especially through my use of almost exclusively black and white. For elements of design, I used mostly emphasis in order to make the shoes stand out on the stark white background.</p>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 3547,
+        "w": 342,
+        "h": 94
+      },
+      "html": "<p>Critique 1:</p>\n\n<p>\"Is there any way to incorporate more contrast in this piece?\"</p>\n\n<p>-Nicolas</p>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 3653,
+        "w": 342,
+        "h": 140
+      },
+      "html": "<p>Critique 2:</p>\n\n<p>\"Try adding a shadow to offset the sneakers from the page and make sure you continue it down the side of the canvas.\"&nbsp;</p>\n\n<p>-Ms. Johnson</p>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 3805,
+        "w": 342,
+        "h": 164
+      },
+      "html": "<p>Critique 3:</p>\n\n<p>\"I would leave the white colored pencil marks, it looks like the same material as the shoes and I think it's really cool. I wouldn't want this piece to lose that by painting over it.\"</p>\n\n<p>-Simonne</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 4074,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>Overall Reflection</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 4114,
+        "w": 342,
+        "h": 304
+      },
+      "html": "<p>Materials: Acrylic on canvas, chalk pencil, sharpie</p>\n\n<p>​</p>\n\n<p>Processes: Typical painting with brushes, pens and pencils used for text and designs</p>\n\n<p>​</p>\n\n<p>Size: 12 in x 9 in</p>\n\n<p>​</p>\n\n<p>Image Citation: Inspired by alternative drawing on converse, cybersigilism styles, doodles</p>\n\n<p>​</p>"
+    }
+  ],
+  "blank-2": [
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 48,
+        "y": 734,
+        "w": 294,
+        "h": 29
+      },
+      "html": "<h1>View of a Classroom</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 48,
+        "y": 775,
+        "w": 294,
+        "h": 515
+      },
+      "html": "<p>This painting was inspired by the work of Maurice de Vlaminck, specifically his painting Bougival. I loved the way he used color to capture emotion, bringing in hues of blues and deeply saturated oranges to capture an overwhelming sense of nostalgia. In Bougival, Vlaminck paints a beautiful hilly scene littered with trees and houses. I wanted to reflect the idea that the classroom is now where time is spent. Instead of being raised outside, I grew up within a school. In Bougival the scene is open and soaring with visible clouds and shoreline, whereas in the classroom, the space feels enclosed and tight, mimicking the way that life is structured around education.</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 3343,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>Technical Process</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 3384,
+        "w": 342,
+        "h": 866
+      },
+      "html": "<p>To start this project, I knew I wanted some roughed up wood to paint on, so I ventured into the scene shop (sorry Mr. Parr). I found 3 little pieces of wood littered with screw holes, caked with old paint, and muddied with different colors. It was obvious that they had been used many times before. I painted the tops white with a few thick coats of acrylic paint, and I began to sketch my design. I knew from the moment I saw Bougival, that I wanted to paint a classroom, so I immediately started sketching desks, blackboards, and a typical classroom scene. I went in with some highly saturated colors, and used the painting beside my reference image in order to get the colors as close as possible. I painted by color blocking the shadows and using my fingers to blend the paint. Maurice de Vlaminck often painted directly with his fingers onto the canvas, and I tried to mimic that as well. I did this mostly on the ground where the blue fades into yellow, and it honestly worked very well. I filled in the background, using yellows for highlights, deep blues for shadows, and bits of red in my midtones. Once I was finished painting, I had the idea to install this piece with gaps in between the blocks of wood. I thought that having shadows on the pieces would bring more emphasis to the color, and after testing it out I was right. I screwed in some metal seperater plates and got ready to hang my piece.</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 4354,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>Elements and Principles</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 4394,
+        "w": 342,
+        "h": 211
+      },
+      "html": "<p>The main element of art that I used in this piece was color, as that's the aspect I \"stole\" from the gallery piece I found, and the main focus of the piece. As for principles, I utilized mostly movement as the sunlight makes the scene move from the window, to the desks, to the boards in the background, and across the entire scene.</p>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 4645,
+        "w": 342,
+        "h": 117
+      },
+      "html": "<p>Critique 1:</p>\n\n<p>\"Try to make the legs of the desks more defined, and focus on the perspective of the image.\"</p>\n\n<p>-Nicolas</p>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 4774,
+        "w": 342,
+        "h": 117
+      },
+      "html": "<p>Critique 2:</p>\n\n<p>\"What if you hang the boards with some space in between to make the colors pop more? I think it'd look really cool\"</p>\n\n<p>-Monika</p>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 4903,
+        "w": 342,
+        "h": 187
+      },
+      "html": "<p>Critique 3:</p>\n\n<p>\"I love the way the scene flows together, with the sunlight into the desks and onto the board. I think you do a very good job of using color to get that done. What are your plans for the back board?\"</p>\n\n<p>-Ms. Johnson</p>"
+    },
+    {
+      "style": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 26,
+        "weight": "400",
+        "lineHeight": 28.6,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "capitalize"
+      },
+      "box": {
+        "x": 24,
+        "y": 5195,
+        "w": 342,
+        "h": 29
+      },
+      "html": "<h1>Overall Reflection</h1>"
+    },
+    {
+      "style": {
+        "font": "alfabet",
+        "size": 18,
+        "weight": "400",
+        "lineHeight": 23.4,
+        "letterSpacing": "normal",
+        "color": "rgb(15, 35, 6)",
+        "align": "center",
+        "transform": "none"
+      },
+      "box": {
+        "x": 24,
+        "y": 5236,
+        "w": 342,
+        "h": 304
+      },
+      "html": "<p>Materials: Acrylic on recycled wood, meant to reflect people stuck in schools wishing they were in nature</p>\n\n<p>​</p>\n\n<p>Processes: Typical painting with brushes, sanded wood, fingers to blend and give impressionist look</p>\n\n<p>​</p>\n\n<p>Size: 12 in x 12 in</p>\n\n<p>​</p>\n\n<p>Image Citation: Maurice de Vlamnick's <em>Bougival, </em>Fauvist style painting, Traditional classrooms</p>"
+    }
+  ]
+}

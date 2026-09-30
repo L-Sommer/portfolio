@@ -1,0 +1,20 @@
+---
+// Shell for the landing page and its sub-pages (resume, research). Intentionally plain:
+// the landing design will be iterated on separately from the portfolio replica.
+import Base from './Base.astro';
+import '@fontsource/crimson-pro/600.css';
+import '@fontsource/public-sans/400.css';
+import '../styles/landing.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+
+<Base title={title} description={description}>
+  <div class="landing">
+    <slot />
+  </div>
+</Base>

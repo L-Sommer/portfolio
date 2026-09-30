@@ -1,0 +1,31 @@
+---
+// Temporary landing page: name + links to portfolio, resume, research, LinkedIn, GitHub.
+import LandingLayout from '../layouts/LandingLayout.astro';
+import { owner, links } from '../data/landing';
+---
+
+<LandingLayout title={owner.name} description={`${owner.name}: art portfolio, resume and research`}>
+  <main class="l-wrap">
+    <h1 class="l-name">{owner.name}</h1>
+    <p class="l-tag">{owner.tagline}</p>
+    <ul class="l-links">
+      {
+        links.map((l) => (
+          <li>
+            {l.stub && l.href === '#' ? (
+              <span class="l-link is-stub" aria-disabled="true">
+                <strong>{l.label}</strong>
+                <span>{l.description}</span>
+              </span>
+            ) : (
+              <a class:list={['l-link', l.stub && 'is-stub']} href={l.href} {...(l.external ? { target: '_blank', rel: 'noopener' } : {})}>
+                <strong>{l.label}</strong>
+                <span>{l.description}</span>
+              </a>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </main>
+</LandingLayout>

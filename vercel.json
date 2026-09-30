@@ -1,0 +1,23 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "astro",
+  "installCommand": "bun install",
+  "buildCommand": "bun run build",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/blank-1", "destination": "/portfolio/about", "permanent": true },
+    { "source": "/blank-3", "destination": "/portfolio/past-works", "permanent": true },
+    { "source": "/blank", "destination": "/portfolio/advanced", "permanent": true },
+    { "source": "/blank-2-1-1", "destination": "/portfolio/green", "permanent": true },
+    { "source": "/blank-2-1", "destination": "/portfolio/we-are-shaped", "permanent": true },
+    { "source": "/blank-2", "destination": "/portfolio/view-of-a-classroom", "permanent": true },
+    { "source": "/portfolio/blank-1", "destination": "/portfolio/about", "permanent": true },
+    { "source": "/portfolio/blank-3", "destination": "/portfolio/past-works", "permanent": true },
+    { "source": "/portfolio/blank", "destination": "/portfolio/advanced", "permanent": true },
+    { "source": "/portfolio/blank-2-1-1", "destination": "/portfolio/green", "permanent": true },
+    { "source": "/portfolio/blank-2-1", "destination": "/portfolio/we-are-shaped", "permanent": true },
+    { "source": "/portfolio/blank-2", "destination": "/portfolio/view-of-a-classroom", "permanent": true }
+  ]
+}

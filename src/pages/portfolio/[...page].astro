@@ -1,0 +1,40 @@
+---
+// All seven portfolio pages, generated from src/data/layout.json.
+import { Image } from 'astro:assets';
+import PortfolioLayout from '../../layouts/PortfolioLayout.astro';
+import LayoutNode from '../../components/portfolio/LayoutNode.astro';
+import { pages, imagesOf, type PortfolioPage } from '../../data/layout';
+import { imageFor } from '../../data/images';
+
+export function getStaticPaths() {
+  return pages.map((page) => ({
+    params: { page: page.route.replace(/^\/portfolio\/?/, '') || undefined },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props as { page: PortfolioPage };
+const lightbox = imagesOf(page).filter((i) => i.lightbox);
+const icon = (d: string) => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${d}" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>`;
+---
+
+<PortfolioLayout title={page.docTitle}>
+  {page.bands.map((band) => <LayoutNode node={band} />)}
+
+  {
+    lightbox.length > 0 && (
+      <dialog class="lightbox" id={`lb-${lightbox[0].lightbox}`} aria-label="Gallery">
+        <div class="lb-track">
+          {lightbox.map((img) => (
+            <div class="lb-slide" role="group" aria-label={img.title}>
+              <Image src={imageFor(img.image)} alt={img.alt} widths={[800, 1440, 2400].filter((w) => w <= imageFor(img.image).width)} sizes="100vw" loading="lazy" />
+            </div>
+          ))}
+        </div>
+        <button class="lb-btn lb-close" type="button" aria-label="Close" set:html={icon('M5 5l14 14M19 5L5 19')} />
+        <button class="lb-btn lb-prev" type="button" aria-label="Previous" set:html={icon('M15 4l-8 8 8 8')} />
+        <button class="lb-btn lb-next" type="button" aria-label="Next" set:html={icon('M9 4l8 8-8 8')} />
+      </dialog>
+    )
+  }
+</PortfolioLayout>

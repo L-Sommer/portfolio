@@ -1,0 +1,444 @@
+{
+  "title": "Past Works | Portfolio",
+  "description": null,
+  "favicon": "https://www.wix.com/favicon.ico",
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "height": 3499,
+  "fonts": [
+    "wix-madefor-display-v2 400 normal",
+    "adobe-caslon-w01-smbd 400 normal"
+  ],
+  "texts": [
+    {
+      "tag": "h1",
+      "text": "Past Works",
+      "box": {
+        "x": 24,
+        "y": 3209,
+        "w": 342,
+        "h": 33
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "30px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "33px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Messy Desk",
+      "box": {
+        "x": 48,
+        "y": 438,
+        "w": 294,
+        "h": 41
+      },
+      "font": "wix-madefor-display-v2",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "25.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "So Loud",
+      "box": {
+        "x": 48,
+        "y": 854,
+        "w": 294,
+        "h": 41
+      },
+      "font": "wix-madefor-display-v2",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "25.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Bright Light",
+      "box": {
+        "x": 48,
+        "y": 1270,
+        "w": 294,
+        "h": 41
+      },
+      "font": "wix-madefor-display-v2",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "25.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "City 101",
+      "box": {
+        "x": 48,
+        "y": 1686,
+        "w": 294,
+        "h": 41
+      },
+      "font": "wix-madefor-display-v2",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "25.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Dancer",
+      "box": {
+        "x": 48,
+        "y": 2102,
+        "w": 294,
+        "h": 41
+      },
+      "font": "wix-madefor-display-v2",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "25.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Re-imagine",
+      "box": {
+        "x": 48,
+        "y": 2518,
+        "w": 294,
+        "h": 41
+      },
+      "font": "wix-madefor-display-v2",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "25.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Owl Mug",
+      "box": {
+        "x": 48,
+        "y": 2934,
+        "w": 294,
+        "h": 41
+      },
+      "font": "wix-madefor-display-v2",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "25.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Past Works",
+      "box": {
+        "x": 48,
+        "y": 184,
+        "w": 294,
+        "h": 33
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "30px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "33px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Skip to Main Content\nPast Works\nMessy Desk\nSo Loud\nBright Light\nCity 101\nDancer\nRe-imagine\nOwl Mug\nPast Works",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 3465
+      },
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "10px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_437c8f7daf3140ae845488513171f4a3~mv2.png/v1/fill/w_294,h_221,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Messy%20Desk.png",
+      "alt": "",
+      "box": {
+        "x": 48,
+        "y": 257,
+        "w": 294,
+        "h": 392
+      },
+      "natural": {
+        "w": 294,
+        "h": 221
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_4b636da628ac481583089fa6137fdf1e~mv2.png/v1/fill/w_294,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/So%20Loud.png",
+      "alt": "",
+      "box": {
+        "x": 48,
+        "y": 673,
+        "w": 294,
+        "h": 392
+      },
+      "natural": {
+        "w": 294,
+        "h": 220
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_4e0badf71c5646668edf3a0f8e825da3~mv2.png/v1/fill/w_294,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Bright%20Light.png",
+      "alt": "",
+      "box": {
+        "x": 48,
+        "y": 1089,
+        "w": 294,
+        "h": 392
+      },
+      "natural": {
+        "w": 294,
+        "h": 220
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_cff1c2575d0748b3b5e3b6411d27e61a~mv2.png/v1/fill/w_294,h_310,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/City%20101.png",
+      "alt": "",
+      "box": {
+        "x": 48,
+        "y": 1505,
+        "w": 294,
+        "h": 392
+      },
+      "natural": {
+        "w": 294,
+        "h": 310
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_bec7d478a431421bb2978d334bcd342e~mv2.png/v1/fill/w_276,h_392,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Dancer.png",
+      "alt": "",
+      "box": {
+        "x": 48,
+        "y": 1921,
+        "w": 294,
+        "h": 392
+      },
+      "natural": {
+        "w": 276,
+        "h": 392
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_2fbf8f381e964b7fa4a1780ec4cc69dd~mv2.png/v1/fill/w_294,h_232,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Re-imagine.png",
+      "alt": "",
+      "box": {
+        "x": 48,
+        "y": 2337,
+        "w": 294,
+        "h": 392
+      },
+      "natural": {
+        "w": 294,
+        "h": 232
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_70494af979aa4c4c992c2e0b3046490a~mv2.png/v1/fill/w_294,h_163,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Owl%20Mug.png",
+      "alt": "",
+      "box": {
+        "x": 48,
+        "y": 2753,
+        "w": 294,
+        "h": 392
+      },
+      "natural": {
+        "w": 294,
+        "h": 163
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [],
+  "sections": [
+    {
+      "tag": "section",
+      "id": "comp-mrigndeq_r_comp-mb7ogqqn",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrigndeq_r_comp-mhs1biva",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mrignd45",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 3195
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrignd4a1",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 3195
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrihd8ro3",
+      "box": {
+        "x": 24,
+        "y": 160,
+        "w": 342,
+        "h": 3009
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mrigndi6_r_comp-kbgakgyt",
+      "box": {
+        "x": 0,
+        "y": 3299,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrigndi6_r_comp-mdr17w8k",
+      "box": {
+        "x": 0,
+        "y": 3299,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    }
+  ]
+}

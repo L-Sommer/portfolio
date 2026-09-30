@@ -1,0 +1,181 @@
+{
+  "title": "Home | Portfolio",
+  "description": null,
+  "favicon": "https://www.wix.com/favicon.ico",
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "height": 844,
+  "fonts": [
+    "adobe-caslon-w01-smbd 400 normal"
+  ],
+  "texts": [
+    {
+      "tag": "p",
+      "text": "Art By",
+      "box": {
+        "x": 24,
+        "y": 304,
+        "w": 342,
+        "h": 26
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "p",
+      "text": "LILY SOMMER",
+      "box": {
+        "x": 24,
+        "y": 342,
+        "w": 342,
+        "h": 38
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "38px",
+      "weight": "700",
+      "style": "normal",
+      "lineHeight": "38px",
+      "letterSpacing": "normal",
+      "color": "rgb(255, 255, 255)",
+      "align": "center",
+      "transform": "uppercase",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Skip to Main Content\n\nArt By\n\nLILY SOMMER",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 746
+      },
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "10px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_30fc0accc4b74aca8439aa9041d4244a~mv2.png/v1/fill/w_390,h_476,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design%20(8).png",
+      "alt": "Untitled design (8).png",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 476
+      },
+      "natural": {
+        "w": 390,
+        "h": 476
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [],
+  "sections": [
+    {
+      "tag": "section",
+      "id": "comp-mb7ogqrp_r_comp-mb7ogqqn",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mb7ogqrp_r_comp-mhs1biva",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mhs1bc6l",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 476
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mhs1bc7o",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 476
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-kbgakxmn_r_comp-kbgakgyt",
+      "box": {
+        "x": 0,
+        "y": 580,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-kbgakxmn_r_comp-mdr17w8k",
+      "box": {
+        "x": 0,
+        "y": 580,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    }
+  ]
+}

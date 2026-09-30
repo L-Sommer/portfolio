@@ -1,0 +1,106 @@
+---
+// Renders one node of src/data/layout.json. Desktop geometry (--dx/--dy/--dw/--dhh) is absolute
+// inside the parent; mobile geometry (--mx/--mt/--mw/--mh/--order) drives a flex-column flow.
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import type { LayoutNode as Node } from '../../data/layout';
+import { imageFor } from '../../data/images';
+import Self from './LayoutNode.astro';
+
+interface Props {
+  node: Node;
+}
+const { node } = Astro.props;
+
+const FONT: Record<string, string> = { 'adobe-caslon-w01-smbd': 'var(--serif)', alfabet: 'var(--sans)' };
+// Letter-spacing nudges so the free fonts set the same line lengths as the Wix originals
+// (tuned separately per layout against the parity screenshots).
+const TRACK: Record<string, string> = { 'adobe-caslon-w01-smbd': '0.004em', alfabet: '0.007em' };
+const TRACK_MOBILE: Record<string, string> = { 'adobe-caslon-w01-smbd': '0.004em', alfabet: '0.0125em' };
+
+const vars: Record<string, string | number> = {};
+if (node.kind === 'band') {
+  Object.assign(vars, { '--dh': node.dh, '--bg': node.bg, '--mpb': node.mpb ?? 0 });
+} else {
+  const { dr, mr } = node;
+  Object.assign(vars, { '--dx': dr.x, '--dy': dr.y, '--dw': dr.w, '--dhh': dr.h });
+  if (mr) {
+    Object.assign(vars, { '--mx': mr.x, '--mw': mr.w, '--mh': mr.h, '--order': mr.order });
+    if (mr.abs) vars['--my'] = mr.y!;
+    else vars['--mt'] = mr.mt!;
+  }
+  if (node.kind === 'card') vars['--mpb'] = node.mpb ?? 0;
+  if (node.kind === 'text') {
+    const { sd, sm } = node;
+    Object.assign(vars, {
+      '--font': FONT[sd.font] ?? 'var(--sans)',
+      '--weight': sd.font.includes('caslon') ? (Number(sd.weight) >= 700 ? 700 : 600) : 400,
+      '--color': sd.color,
+      '--transform': sd.transform,
+      '--size': sd.size,
+      '--lh': sd.lh ? (sd.lh / sd.size).toFixed(4) : 'normal',
+      '--align': sd.align === 'start' ? 'left' : sd.align,
+      '--ls': TRACK[sd.font] ?? 'normal',
+      '--mls': TRACK_MOBILE[sd.font] ?? 'normal',
+      '--msize': sm?.size ?? sd.size,
+      '--mlh': sm?.lh ? (sm.lh / sm.size).toFixed(4) : 'normal',
+      '--malign': (sm?.align ?? sd.align) === 'start' ? 'left' : (sm?.align ?? sd.align),
+    });
+  }
+}
+const style = Object.entries(vars).map(([k, v]) => `${k}:${v}`).join(';');
+
+const classes = [
+  node.kind === 'band' ? 'band' : 'node',
+  node.kind === 'card' && 'card',
+  node.kind === 'card' && node.mobileContents && 'contents',
+  node.kind === 'image' && 'img',
+  node.kind === 'image' && node.frame && 'frame',
+  node.kind === 'text' && 'text',
+  node.kind !== 'band' && node.mr?.abs && 'abs',
+  // A card hidden on mobile still shows its children (display: contents), so never drop it.
+  node.kind !== 'band' && !node.mr && !(node.kind === 'card' && node.mobileContents) && 'no-mobile',
+].filter(Boolean);
+
+let src: ImageMetadata | undefined;
+let sizes = '';
+let widths: number[] = [];
+if (node.kind === 'image') {
+  src = imageFor(node.image);
+  const d = node.dr.w / 12.8;
+  const m = (node.mr?.w ?? node.dr.w) / 3.9;
+  sizes = `(min-width: 1024px) ${d.toFixed(1)}vw, ${m.toFixed(1)}vw`;
+  widths = [320, 480, 640, 800, 1080, 1440, 1920, 2560].filter((w) => w <= src!.width);
+  if (!widths.length) widths = [src.width];
+}
+// Above-the-fold images (near the top of their parent) load eagerly.
+const priority = node.kind === 'image' && node.dr.y < 400;
+---
+
+{
+  node.kind === 'text' ? (
+    <div class:list={classes} style={style} set:html={node.html} />
+  ) : node.kind === 'image' ? (
+    <div class:list={classes} style={style}>
+      {node.link ? (
+        <a href={node.link}>
+          <Image src={src!} alt={node.alt} widths={widths} sizes={sizes} loading={priority ? 'eager' : 'lazy'} />
+        </a>
+      ) : node.lightbox ? (
+        <button type="button" data-lightbox={node.lightbox} data-index={node.lightboxIndex} aria-label={`Open ${node.title}`}>
+          <Image src={src!} alt={node.alt} widths={widths} sizes={sizes} loading={priority ? 'eager' : 'lazy'} />
+        </button>
+      ) : (
+        <Image src={src!} alt={node.alt} widths={widths} sizes={sizes} loading={priority ? 'eager' : 'lazy'} />
+      )}
+    </div>
+  ) : node.kind === 'band' ? (
+    <section class:list={classes} style={style}>
+      {node.children.map((c) => <Self node={c} />)}
+    </section>
+  ) : (
+    <div class:list={classes} style={style}>
+      {node.children.map((c) => <Self node={c} />)}
+    </div>
+  )
+}

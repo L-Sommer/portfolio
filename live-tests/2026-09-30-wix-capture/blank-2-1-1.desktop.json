@@ -1,0 +1,888 @@
+{
+  "title": "Green | Portfolio",
+  "description": null,
+  "favicon": "https://www.wix.com/favicon.ico",
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "height": 3292,
+  "fonts": [
+    "adobe-caslon-w01-smbd 400 normal",
+    "alfabet 400 normal",
+    "dm-sans 400 normal"
+  ],
+  "texts": [
+    {
+      "tag": "span",
+      "text": "LS",
+      "box": {
+        "x": 35,
+        "y": 66,
+        "w": 45,
+        "h": 33
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "25.0001px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "32.5001px",
+      "letterSpacing": "normal",
+      "color": "rgb(254, 255, 251)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "About Me",
+      "box": {
+        "x": 930,
+        "y": 70,
+        "w": 72,
+        "h": 22
+      },
+      "font": "dm-sans, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(254, 255, 251)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Past Works",
+      "box": {
+        "x": 1031,
+        "y": 70,
+        "w": 82,
+        "h": 22
+      },
+      "font": "dm-sans, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(254, 255, 251)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Advanced",
+      "box": {
+        "x": 1142,
+        "y": 70,
+        "w": 74,
+        "h": 22
+      },
+      "font": "dm-sans, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(254, 255, 251)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Green",
+      "box": {
+        "x": 779,
+        "y": 228,
+        "w": 402,
+        "h": 46
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "42px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "46.2px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "p",
+      "text": "My favorite color is the green that leaves turn as the sunlight glows through them. I've thought this since I was a little kid, walking through trails, going camping with my dad, and it still holds true today. Green is my favorite color. It represents life, nature, and a kind of freedom that I only feel when I'm outdoors. I feel so at peace and like myself with the wind blowing in my ears and green all around me. The feeling that I get when I look at nature was my inspiration for this piece. In a way, I feel that that sensation is my essence as a person. I wanted the leaves to have the faint glow of the sun filtered through them, and for the page to be covered in freeform doodles and stars. These are all things that speak to me, and paint that image of freedom, movement, and overwhelming peace.",
+      "box": {
+        "x": 807,
+        "y": 287,
+        "w": 346,
+        "h": 624
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Technical Process",
+      "box": {
+        "x": 404,
+        "y": 1920,
+        "w": 480,
+        "h": 44
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "40px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "I grabbed a piece of paper, some newspaper, and some rubber cement, and I began to cut out words, pictures, and titles that stuck out to me. I wanted to create a sense of urgency or chaos to symbolize the outside world and the escape that nature offers by literally covering some of the buzzwords. I cut each piece of paper out with an Exacto knife, glued it down, and left it to dry. I then began to paint a picture of a few leaves with light showing through them using acrylic paint. I cut these pieces out as well and set them on top to mark their locations. I then painted and cut out a few stars, and doodled a few freeform shapes on my collage with some markers. I took all of the leaves and stars off and used the printmaking stamps to add some pattern and repetition to make the work look less barren, and some halftone effects to fill the space. I then glued everything on top of it and put it in a frame.",
+      "box": {
+        "x": 67,
+        "y": 1965,
+        "w": 1136,
+        "h": 206
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Elements And Principles",
+      "box": {
+        "x": 396,
+        "y": 2334,
+        "w": 480,
+        "h": 44
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "40px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "p",
+      "text": "For elements of art, I used primarily color, or emphasis of one color in order to make this project mean something. The excessive and exclusive use of green is what makes this piece exist. For principles of design, I used variety through the varied newspaper clippings, and the varied green painted pieces placed on top.",
+      "box": {
+        "x": 81,
+        "y": 2378,
+        "w": 1139,
+        "h": 78
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Critique 1:",
+      "box": {
+        "x": 81,
+        "y": 2522,
+        "w": 242,
+        "h": 26
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "\"I like the idea, but it needs more. Try to add more layers\"",
+      "box": {
+        "x": 81,
+        "y": 2549,
+        "w": 216,
+        "h": 76
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "-Ms. Johnson",
+      "box": {
+        "x": 81,
+        "y": 2627,
+        "w": 127,
+        "h": 24
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Critique 2:",
+      "box": {
+        "x": 516,
+        "y": 2523,
+        "w": 97,
+        "h": 24
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "\"Maybe you could use some pre-cut printmaking stamps to create pattern?\"",
+      "box": {
+        "x": 516,
+        "y": 2549,
+        "w": 216,
+        "h": 102
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "-Ms. Johnson",
+      "box": {
+        "x": 516,
+        "y": 2653,
+        "w": 127,
+        "h": 24
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Critique 3:",
+      "box": {
+        "x": 955,
+        "y": 2523,
+        "w": 98,
+        "h": 24
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "\"I love the way its looking, and I love your emphasis on color, with the focus on a few specific tones.\"",
+      "box": {
+        "x": 955,
+        "y": 2549,
+        "w": 241,
+        "h": 102
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "-Farah",
+      "box": {
+        "x": 955,
+        "y": 2653,
+        "w": 63,
+        "h": 24
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Overall Reflection",
+      "box": {
+        "x": 400,
+        "y": 2823,
+        "w": 480,
+        "h": 44
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "40px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "44px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Materials: Newspaper, acrylic paint, sharpies",
+      "box": {
+        "x": 67,
+        "y": 2872,
+        "w": 424,
+        "h": 24
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Processes: Collage of newspaper, acrylic painted pieces glued on top",
+      "box": {
+        "x": 67,
+        "y": 2924,
+        "w": 653,
+        "h": 24
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Size: 11 in x 14 in",
+      "box": {
+        "x": 67,
+        "y": 2976,
+        "w": 164,
+        "h": 24
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Image Citation: Inspired by leaves of different kinds of trees, paid special attention to the colors of the leaves and the glow effect that light gives, doodles of stars and freeform drawings inspired by cybercigilism.",
+      "box": {
+        "x": 67,
+        "y": 3028,
+        "w": 1098,
+        "h": 50
+      },
+      "font": "alfabet, sans-serif",
+      "size": "20px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "26px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Skip to Main Content\nLS\nAbout Me\nPast Works\nAdvanced\nGreen\n\nMy favorite color is the green that leaves turn as the sunlight glows through them. I've thought this since I was a little kid, walking through trails, going camping with my dad, and it still holds true today. Green is my favorite color. It represents life, nature, and a kind of freedom that I only feel when I'm outdoors. I feel so at peace and like myself with the wind blowing in my ears and green all around me. The feeling that I get when I look at nature was my inspiration for this piece. In a way, I feel that that sensation is my essence as a person. I wanted the leaves to have the faint glow of the sun filtered through them, and for the page to be covered in freeform doodles and stars. These are all things that speak to me, and paint that image of freedom, movement, and overwhelming peace.\n\nTechnical Process\n\nI grabbed a piece of paper, some newspaper, and some rubber cement, and I began to cut out words, pictures, and titles that stuck out to me. I wanted to create a sense of urgency or chaos to symbolize the outside world and the escape that nature offers by literally covering some of the buzzwords. I cut each piece of paper out with an Exacto knife, glued it down, and left it to dry. I then began to paint a picture of a few leaves with light showing through them using acrylic paint. I cut these pieces out as well and set them on top to mark their locations. I then painted and cut out a few stars, and doodled a few freeform shapes on my collage with some markers. I took all of the leaves and stars off and used the printmaking stamps to add some pattern and repetition to make the work look less barren, and some halftone effects to fill the space. I then glued everything on top of it and put it in a frame.\n\nElements And Principles\n\nFor elements of art, I used primarily color, or emphasis of one color in order to make this project mean something. The excessive and exclusive use of green is what makes this piece exist. For principles of design, I used variety through the varied newspaper clippings, and the varied green painted pieces placed on top.\n\nCritique 1:\n\n\"I like the idea, but it needs more. Try to add more layers\"\n\n-Ms. Johnson\n\nCritique 2:\n\n\"Maybe you could use some pre-cut printmaking stamps to create pattern?\"\n\n-Ms. Johnson\n\nCritique 3:\n\n\"I love the way its looking, and I love your emphasis on color, with the focus on a few specific tones.\"\n\n-Farah\n\nOverall Reflection\n\nMaterials: Newspaper, acrylic paint, sharpies\n\n​\n\nProcesses: Collage of newspaper, acrylic painted pieces glued on top\n\n​\n\nSize: 11 in x 14 in\n\n​\n\nImage Citation: Inspired by leaves of different kinds of trees, paid special attention to the colors of the leaves and the glow effect that light gives, doodles of stars and freeform drawings inspired by cybercigilism.",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 3258
+      },
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "10px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_067adb9e0f6242bd89d67f941364fa30~mv2.png/v1/fill/w_463,h_611,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9064_heic.png",
+      "alt": "IMG_9064.heic",
+      "box": {
+        "x": 167,
+        "y": 196,
+        "w": 463,
+        "h": 611
+      },
+      "natural": {
+        "w": 463,
+        "h": 611
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_067adb9e0f6242bd89d67f941364fa30~mv2.png/v1/crop/x_309,y_673,w_920,h_1024/fill/w_207,h_231,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9064_heic.png",
+      "alt": "IMG_9064.heic",
+      "box": {
+        "x": 526,
+        "y": 671,
+        "w": 207,
+        "h": 231
+      },
+      "natural": {
+        "w": 207,
+        "h": 231
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_9724682c9b7847c2a88ff220769d9490~mv2.png/v1/crop/x_442,y_913,w_2156,h_2558/fill/w_331,h_392,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9050_HEIC.png",
+      "alt": "IMG_9050.HEIC",
+      "box": {
+        "x": 67,
+        "y": 1415,
+        "w": 331,
+        "h": 392
+      },
+      "natural": {
+        "w": 331,
+        "h": 392
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_af1a1e7105734613b756fb61a44e1831~mv2.jpg/v1/fill/w_417,h_338,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/leaves%201.jpg",
+      "alt": "leaves 1.jpg",
+      "box": {
+        "x": 205,
+        "y": 1005,
+        "w": 417,
+        "h": 338
+      },
+      "natural": {
+        "w": 417,
+        "h": 338
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_87f75f05a6574fd2aed794ce4c370db6~mv2.png/v1/crop/x_352,y_594,w_2328,h_2722/fill/w_336,h_393,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9051_HEIC.png",
+      "alt": "IMG_9051.HEIC",
+      "box": {
+        "x": 468,
+        "y": 1415,
+        "w": 336,
+        "h": 393
+      },
+      "natural": {
+        "w": 336,
+        "h": 393
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_f60ca8bddfcc4fe4a648711ebd7efef4~mv2.jpg/v1/fill/w_380,h_337,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/leaves%202.jpg",
+      "alt": "leaves 2.jpg",
+      "box": {
+        "x": 663,
+        "y": 1005,
+        "w": 380,
+        "h": 337
+      },
+      "natural": {
+        "w": 380,
+        "h": 337
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_d154b0ebceaa4e5bb0e7a7ea4064ee31~mv2.png/v1/crop/x_319,y_674,w_2362,h_2693/fill/w_344,h_392,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9054_HEIC.png",
+      "alt": "IMG_9054.HEIC",
+      "box": {
+        "x": 886,
+        "y": 1415,
+        "w": 344,
+        "h": 392
+      },
+      "natural": {
+        "w": 344,
+        "h": 392
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "text": "LS",
+      "href": "https://lilys271.wixsite.com/portfolio",
+      "target": "_self",
+      "box": {
+        "x": 20,
+        "y": 56,
+        "w": 76,
+        "h": 53
+      }
+    },
+    {
+      "text": "About Me",
+      "href": "https://lilys271.wixsite.com/portfolio/blank-1",
+      "target": "_self",
+      "box": {
+        "x": 930,
+        "y": 70,
+        "w": 72,
+        "h": 22
+      }
+    },
+    {
+      "text": "Past Works",
+      "href": "https://lilys271.wixsite.com/portfolio/blank-3",
+      "target": "_self",
+      "box": {
+        "x": 1031,
+        "y": 70,
+        "w": 82,
+        "h": 22
+      }
+    },
+    {
+      "text": "Advanced",
+      "href": "https://lilys271.wixsite.com/portfolio/blank",
+      "target": "_self",
+      "box": {
+        "x": 1142,
+        "y": 70,
+        "w": 74,
+        "h": 22
+      }
+    }
+  ],
+  "sections": [
+    {
+      "tag": "section",
+      "id": "comp-msu1puqu_r_comp-mb7ogqqn",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 1280,
+        "h": 86
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1puqu_r_comp-mhs1biva",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 1280,
+        "h": 86
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "a",
+      "id": "comp-msu1puqu_r_comp-mriejb8w",
+      "box": {
+        "x": 20,
+        "y": 56,
+        "w": 76,
+        "h": 53
+      },
+      "bg": "rgb(15, 35, 6)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "radius": "6px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1puqu8",
+      "box": {
+        "x": 0,
+        "y": 120,
+        "w": 1280,
+        "h": 1751
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1purp12",
+      "box": {
+        "x": 0,
+        "y": 120,
+        "w": 1280,
+        "h": 1751
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1puqy6",
+      "box": {
+        "x": 126,
+        "y": 178,
+        "w": 1083,
+        "h": 765
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1purv3",
+      "box": {
+        "x": 0,
+        "y": 1870,
+        "w": 1280,
+        "h": 409
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1pus93",
+      "box": {
+        "x": 0,
+        "y": 1870,
+        "w": 1280,
+        "h": 409
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1pusf3",
+      "box": {
+        "x": 0,
+        "y": 2280,
+        "w": 1280,
+        "h": 493
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1putc1",
+      "box": {
+        "x": 0,
+        "y": 2280,
+        "w": 1280,
+        "h": 493
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1puth3",
+      "box": {
+        "x": 0,
+        "y": 2772,
+        "w": 1280,
+        "h": 392
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1putu3",
+      "box": {
+        "x": 0,
+        "y": 2772,
+        "w": 1280,
+        "h": 392
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1puu03_r_comp-kbgakgyt",
+      "box": {
+        "x": 0,
+        "y": 3164,
+        "w": 1280,
+        "h": 128
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1puu03_r_comp-mdr17w8k",
+      "box": {
+        "x": 0,
+        "y": 3164,
+        "w": 1280,
+        "h": 128
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    }
+  ]
+}

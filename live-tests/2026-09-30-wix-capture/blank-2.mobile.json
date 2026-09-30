@@ -1,0 +1,787 @@
+{
+  "title": "View of A Classroom | Portfolio",
+  "description": null,
+  "favicon": "https://www.wix.com/favicon.ico",
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "height": 5790,
+  "fonts": [
+    "adobe-caslon-w01-smbd 400 normal",
+    "alfabet 400 normal",
+    "alfabet 400 italic"
+  ],
+  "texts": [
+    {
+      "tag": "h1",
+      "text": "View Of A Classroom",
+      "box": {
+        "x": 48,
+        "y": 734,
+        "w": 294,
+        "h": 29
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "This painting was inspired by the work of Maurice de Vlaminck, specifically his painting Bougival. I loved the way he used color to capture emotion, bringing in hues of blues and deeply saturated oranges to capture an overwhelming sense of nostalgia. In Bougival, Vlaminck paints a beautiful hilly scene littered with trees and houses. I wanted to reflect the idea that the classroom is now where time is spent. Instead of being raised outside, I grew up within a school. In Bougival the scene is open and soaring with visible clouds and shoreline, whereas in the classroom, the space feels enclosed and tight, mimicking the way that life is structured around education.",
+      "box": {
+        "x": 49,
+        "y": 775,
+        "w": 293,
+        "h": 514
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Technical Process",
+      "box": {
+        "x": 24,
+        "y": 3343,
+        "w": 342,
+        "h": 29
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "To start this project, I knew I wanted some roughed up wood to paint on, so I ventured into the scene shop (sorry Mr. Parr). I found 3 little pieces of wood littered with screw holes, caked with old paint, and muddied with different colors. It was obvious that they had been used many times before. I painted the tops white with a few thick coats of acrylic paint, and I began to sketch my design. I knew from the moment I saw Bougival, that I wanted to paint a classroom, so I immediately started sketching desks, blackboards, and a typical classroom scene. I went in with some highly saturated colors, and used the painting beside my reference image in order to get the colors as close as possible. I painted by color blocking the shadows and using my fingers to blend the paint. Maurice de Vlaminck often painted directly with his fingers onto the canvas, and I tried to mimic that as well. I did this mostly on the ground where the blue fades into yellow, and it honestly worked very well. I filled in the background, using yellows for highlights, deep blues for shadows, and bits of red in my midtones. Once I was finished painting, I had the idea to install this piece with gaps in between the blocks of wood. I thought that having shadows on the pieces would bring more emphasis to the color, and after testing it out I was right. I screwed in some metal seperater plates and got ready to hang my piece.",
+      "box": {
+        "x": 24,
+        "y": 3384,
+        "w": 341,
+        "h": 865
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Elements And Principles",
+      "box": {
+        "x": 24,
+        "y": 4354,
+        "w": 342,
+        "h": 29
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "The main element of art that I used in this piece was color, as that's the aspect I \"stole\" from the gallery piece I found, and the main focus of the piece. As for principles, I utilized mostly movement as the sunlight makes the scene move from the window, to the desks, to the boards in the background, and across the entire scene.",
+      "box": {
+        "x": 27,
+        "y": 4394,
+        "w": 335,
+        "h": 209
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Critique 1:",
+      "box": {
+        "x": 24,
+        "y": 4645,
+        "w": 342,
+        "h": 23
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "\"Try to make the legs of the desks more defined, and focus on the perspective of the image.\"",
+      "box": {
+        "x": 25,
+        "y": 4668,
+        "w": 341,
+        "h": 69
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "-Nicolas",
+      "box": {
+        "x": 159,
+        "y": 4739,
+        "w": 71,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Critique 2:",
+      "box": {
+        "x": 151,
+        "y": 4774,
+        "w": 88,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "\"What if you hang the boards with some space in between to make the colors pop more? I think it'd look really cool\"",
+      "box": {
+        "x": 26,
+        "y": 4797,
+        "w": 338,
+        "h": 69
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "-Monika",
+      "box": {
+        "x": 160,
+        "y": 4868,
+        "w": 69,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Critique 3:",
+      "box": {
+        "x": 151,
+        "y": 4903,
+        "w": 88,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "\"I love the way the scene flows together, with the sunlight into the desks and onto the board. I think you do a very good job of using color to get that done. What are your plans for the back board?\"",
+      "box": {
+        "x": 26,
+        "y": 4926,
+        "w": 338,
+        "h": 139
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "-Ms. Johnson",
+      "box": {
+        "x": 138,
+        "y": 5067,
+        "w": 115,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Overall Reflection",
+      "box": {
+        "x": 24,
+        "y": 5195,
+        "w": 342,
+        "h": 29
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Materials: Acrylic on recycled wood, meant to reflect people stuck in schools wishing they were in nature",
+      "box": {
+        "x": 25,
+        "y": 5236,
+        "w": 340,
+        "h": 69
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Processes: Typical painting with brushes, sanded wood, fingers to blend and give impressionist look",
+      "box": {
+        "x": 28,
+        "y": 5329,
+        "w": 335,
+        "h": 69
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Size: 12 in x 12 in",
+      "box": {
+        "x": 122,
+        "y": 5423,
+        "w": 147,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Image Citation: Maurice de Vlamnick's Bougival, Fauvist style painting, Traditional classrooms",
+      "box": {
+        "x": 32,
+        "y": 5470,
+        "w": 326,
+        "h": 69
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Bougival,",
+      "box": {
+        "x": 60,
+        "y": 5493,
+        "w": 83,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "italic",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Skip to Main Content\nView Of A Classroom\n\nThis painting was inspired by the work of Maurice de Vlaminck, specifically his painting Bougival. I loved the way he used color to capture emotion, bringing in hues of blues and deeply saturated oranges to capture an overwhelming sense of nostalgia. In Bougival, Vlaminck paints a beautiful hilly scene littered with trees and houses. I wanted to reflect the idea that the classroom is now where time is spent. Instead of being raised outside, I grew up within a school. In Bougival the scene is open and soaring with visible clouds and shoreline, whereas in the classroom, the space feels enclosed and tight, mimicking the way that life is structured around education.\n\nTechnical Process\n\nTo start this project, I knew I wanted some roughed up wood to paint on, so I ventured into the scene shop (sorry Mr. Parr). I found 3 little pieces of wood littered with screw holes, caked with old paint, and muddied with different colors. It was obvious that they had been used many times before. I painted the tops white with a few thick coats of acrylic paint, and I began to sketch my design. I knew from the moment I saw Bougival, that I wanted to paint a classroom, so I immediately started sketching desks, blackboards, and a typical classroom scene. I went in with some highly saturated colors, and used the painting beside my reference image in order to get the colors as close as possible. I painted by color blocking the shadows and using my fingers to blend the paint. Maurice de Vlaminck often painted directly with his fingers onto the canvas, and I tried to mimic that as well. I did this mostly on the ground where the blue fades into yellow, and it honestly worked very well. I filled in the background, using yellows for highlights, deep blues for shadows, and bits of red in my midtones. Once I was finished painting, I had the idea to install this piece with gaps in between the blocks of wood. I thought that having shadows on the pieces would bring more emphasis to the color, and after testing it out I was right. I screwed in some metal seperater plates and got ready to hang my piece.\n\nElements And Principles\n\nThe main element of art that I used in this piece was color, as that's the aspect I \"stole\" from the gallery piece I found, and the main focus of the piece. As for principles, I utilized mostly movement as the sunlight makes the scene move from the window, to the desks, to the boards in the background, and across the entire scene.\n\nCritique 1:\n\n\"Try to make the legs of the desks more defined, and focus on the perspective of the image.\"\n\n-Nicolas\n\nCritique 2:\n\n\"What if you hang the boards with some space in between to make the colors pop more? I think it'd look really cool\"\n\n-Monika\n\nCritique 3:\n\n\"I love the way the scene flows together, with the sunlight into the desks and onto the board. I think you do a very good job of using color to get that done. What are your plans for the back board?\"\n\n-Ms. Johnson\n\nOverall Reflection\n\nMaterials: Acrylic on recycled wood, meant to reflect people stuck in schools wishing they were in nature\n\n​\n\nProcesses: Typical painting with brushes, sanded wood, fingers to blend and give impressionist look\n\n​\n\nSize: 12 in x 12 in\n\n​\n\nImage Citation: Maurice de Vlamnick's Bougival, Fauvist style painting, Traditional classrooms",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 5756
+      },
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "10px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_df79e605ace74348ae00ea7a4ace7459~mv2.png/v1/fill/w_294,h_271,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9048_HEIC.png",
+      "alt": "IMG_9048.HEIC",
+      "box": {
+        "x": 48,
+        "y": 186,
+        "w": 294,
+        "h": 271
+      },
+      "natural": {
+        "w": 294,
+        "h": 271
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_df79e605ace74348ae00ea7a4ace7459~mv2.png/v1/crop/x_706,y_1024,w_984,h_875/fill/w_240,h_213,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9048_HEIC.png",
+      "alt": "IMG_9048.HEIC",
+      "box": {
+        "x": 75,
+        "y": 481,
+        "w": 240,
+        "h": 213
+      },
+      "natural": {
+        "w": 240,
+        "h": 213
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_f71ec638d524449f8121be5cc35a8fe6~mv2.jpg/v1/fill/w_342,h_277,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/bougival.jpg",
+      "alt": "bougival.jpg",
+      "box": {
+        "x": 24,
+        "y": 1354,
+        "w": 342,
+        "h": 277
+      },
+      "natural": {
+        "w": 342,
+        "h": 277
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_26f9cdf7e78041ddb33945150e2f0729~mv2.jpeg/v1/fill/w_342,h_300,al_c,lg_1,q_80,enc_avif,quality_auto/IMG_0897.jpeg",
+      "alt": "IMG_0897.jpeg",
+      "box": {
+        "x": 24,
+        "y": 1995,
+        "w": 342,
+        "h": 300
+      },
+      "natural": {
+        "w": 342,
+        "h": 300
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_1cd752c59dbb48c68d9dff983cdbf6c8~mv2.png/v1/crop/x_0,y_0,w_2343,h_1890/fill/w_342,h_253,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8990_heic.png",
+      "alt": "IMG_8990.heic",
+      "box": {
+        "x": 24,
+        "y": 2659,
+        "w": 342,
+        "h": 253
+      },
+      "natural": {
+        "w": 342,
+        "h": 253
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_d5f0e4d8a13445e8819c1549436a82f6~mv2.png/v1/fill/w_342,h_300,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8896_HEIC.png",
+      "alt": "IMG_8896.HEIC",
+      "box": {
+        "x": 24,
+        "y": 1655,
+        "w": 342,
+        "h": 300
+      },
+      "natural": {
+        "w": 342,
+        "h": 300
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_bd51b329630f4047899c5f007b96b9b9~mv2.png/v1/fill/w_342,h_300,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8922_heic.png",
+      "alt": "IMG_8922.heic",
+      "box": {
+        "x": 24,
+        "y": 2319,
+        "w": 342,
+        "h": 300
+      },
+      "natural": {
+        "w": 342,
+        "h": 300
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_0075ed99131143cc8ca4161f669a3f3b~mv2.png/v1/fill/w_342,h_300,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8931_HEIC.png",
+      "alt": "IMG_8931.HEIC",
+      "box": {
+        "x": 24,
+        "y": 2936,
+        "w": 342,
+        "h": 300
+      },
+      "natural": {
+        "w": 342,
+        "h": 300
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [],
+  "sections": [
+    {
+      "tag": "section",
+      "id": "comp-mrig4vz8_r_comp-mb7ogqqn",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrig4vz8_r_comp-mhs1biva",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mrig4vo1",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 3190
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrig4vo24",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 3190
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrig8mx01",
+      "box": {
+        "x": 24,
+        "y": 162,
+        "w": 342,
+        "h": 1152
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mstzxtc6",
+      "box": {
+        "x": 0,
+        "y": 3294,
+        "w": 390,
+        "h": 1006
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mstzxtce3",
+      "box": {
+        "x": 0,
+        "y": 3294,
+        "w": 390,
+        "h": 1006
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu0fc43",
+      "box": {
+        "x": 0,
+        "y": 4299,
+        "w": 390,
+        "h": 845
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu0fc48",
+      "box": {
+        "x": 0,
+        "y": 4299,
+        "w": 390,
+        "h": 845
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu0qdfw",
+      "box": {
+        "x": 0,
+        "y": 5145,
+        "w": 390,
+        "h": 446
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu0qdfz2",
+      "box": {
+        "x": 0,
+        "y": 5145,
+        "w": 390,
+        "h": 446
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mrig4w2z_r_comp-kbgakgyt",
+      "box": {
+        "x": 0,
+        "y": 5590,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrig4w2z_r_comp-mdr17w8k",
+      "box": {
+        "x": 0,
+        "y": 5590,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    }
+  ]
+}

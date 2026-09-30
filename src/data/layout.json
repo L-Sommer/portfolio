@@ -1,0 +1,2199 @@
+{
+ "generatedFrom": "live-tests/2026-09-30-wix-capture",
+ "pages": [
+  {
+   "slug": "home",
+   "route": "/portfolio",
+   "title": "Home",
+   "docTitle": "Home | Portfolio",
+   "bands": [
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 0,
+     "dh": 856,
+     "children": [
+      {
+       "kind": "image",
+       "image": "home-collage",
+       "frame": false,
+       "link": null,
+       "alt": "Home – collage",
+       "mr": {
+        "x": 0,
+        "w": 390,
+        "h": 476,
+        "order": 0,
+        "mt": 0
+       },
+       "dr": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 856
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Art by</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 26,
+        "order": 1,
+        "abs": true,
+        "y": 200
+       },
+       "dr": {
+        "x": 384,
+        "y": 310,
+        "w": 519,
+        "h": 42
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 42,
+        "lh": 42,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(255, 255, 255)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 26,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Lily Sommer</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 38,
+        "order": 2,
+        "abs": true,
+        "y": 238
+       },
+       "dr": {
+        "x": 256,
+        "y": 376,
+        "w": 775,
+        "h": 96
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 96,
+        "lh": 96,
+        "weight": "700",
+        "align": "center",
+        "color": "rgb(255, 255, 255)",
+        "transform": "uppercase"
+       },
+       "sm": {
+        "size": 38,
+        "lh": 38,
+        "align": "center"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "blank-1",
+   "route": "/portfolio/about",
+   "title": "About Me",
+   "docTitle": "About Me | Portfolio",
+   "bands": [
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 65,
+     "dh": 697,
+     "children": [
+      {
+       "kind": "card",
+       "radius": 5,
+       "mobileContents": true,
+       "dr": {
+        "x": 77,
+        "y": 66,
+        "w": 1140,
+        "h": 555
+       },
+       "children": [
+        {
+         "kind": "image",
+         "image": "about-headshot",
+         "frame": true,
+         "link": null,
+         "alt": "About Me – headshot",
+         "mr": {
+          "x": 24,
+          "w": 342,
+          "h": 300,
+          "order": 1,
+          "mt": 40
+         },
+         "dr": {
+          "x": 40,
+          "y": 70,
+          "w": 434,
+          "h": 418
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<h1>About Me</h1>",
+         "mr": {
+          "x": 24,
+          "w": 342,
+          "h": 29,
+          "order": 0,
+          "mt": 66
+         },
+         "dr": {
+          "x": 566,
+          "y": 26,
+          "w": 480,
+          "h": 44
+         },
+         "sd": {
+          "font": "adobe-caslon-w01-smbd",
+          "size": 40,
+          "lh": 44,
+          "weight": "400",
+          "align": "start",
+          "color": "rgb(15, 35, 6)",
+          "transform": "capitalize"
+         },
+         "sm": {
+          "size": 26,
+          "lh": 28.6,
+          "align": "start"
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<p>&nbsp; &nbsp;Art has been a part of my life for as long as I can remember. My mom studied graphic design, so our house was always filled with art supplies that I loved playing with. Her appreciation for design and visual storytelling shaped how I see the world around me, eventually inspiring me to try and create art myself.</p>\n\n<p>&nbsp; &nbsp;Since childhood, I've spent countless hours drawing, painting, and exploring ways to create. What began as a passion became an important way for me to interpret and connect with the world.</p>\n\n<p>&nbsp; &nbsp;I believe art is a continuous process of exploration rather than perfection. Each project is an opportunity to refine my skills, experiment with new ideas, and develop a stronger artistic voice. Whether working in traditional or digital media, I strive to create work that is thoughtful, intentional, and visually compelling.</p>",
+         "mr": {
+          "x": 24,
+          "w": 342,
+          "h": 562,
+          "order": 2,
+          "mt": 40
+         },
+         "dr": {
+          "x": 553,
+          "y": 97,
+          "w": 553,
+          "h": 416
+         },
+         "sd": {
+          "font": "alfabet",
+          "size": 20,
+          "lh": 26,
+          "weight": "400",
+          "align": "start",
+          "color": "rgb(15, 35, 6)",
+          "transform": "none"
+         },
+         "sm": {
+          "size": 18,
+          "lh": 23.4,
+          "align": "start"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "blank-3",
+   "route": "/portfolio/past-works",
+   "title": "Past Works",
+   "docTitle": "Past Works | Portfolio",
+   "bands": [
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 130,
+     "dh": 4104,
+     "children": [
+      {
+       "kind": "card",
+       "radius": 5,
+       "mobileContents": false,
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 3009,
+        "order": 0,
+        "mt": 56
+       },
+       "mpb": 24,
+       "dr": {
+        "x": 99,
+        "y": 56,
+        "w": 1083,
+        "h": 3991
+       },
+       "children": [
+        {
+         "kind": "image",
+         "image": "past-messy-desk",
+         "frame": false,
+         "link": null,
+         "alt": "Messy Desk",
+         "lightbox": "past-works",
+         "lightboxIndex": 0,
+         "title": "Messy Desk",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 392,
+          "order": 1,
+          "mt": 40
+         },
+         "dr": {
+          "x": 23,
+          "y": 113,
+          "w": 512,
+          "h": 683
+         }
+        },
+        {
+         "kind": "image",
+         "image": "past-so-loud",
+         "frame": false,
+         "link": null,
+         "alt": "So Loud",
+         "lightbox": "past-works",
+         "lightboxIndex": 1,
+         "title": "So Loud",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 392,
+          "order": 2,
+          "mt": 24
+         },
+         "dr": {
+          "x": 559,
+          "y": 113,
+          "w": 512,
+          "h": 683
+         }
+        },
+        {
+         "kind": "image",
+         "image": "past-bright-light",
+         "frame": false,
+         "link": null,
+         "alt": "Bright Light",
+         "lightbox": "past-works",
+         "lightboxIndex": 2,
+         "title": "Bright Light",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 392,
+          "order": 3,
+          "mt": 24
+         },
+         "dr": {
+          "x": 23,
+          "y": 820,
+          "w": 1048,
+          "h": 800
+         }
+        },
+        {
+         "kind": "image",
+         "image": "past-city-101",
+         "frame": false,
+         "link": null,
+         "alt": "City 101",
+         "lightbox": "past-works",
+         "lightboxIndex": 3,
+         "title": "City 101",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 392,
+          "order": 4,
+          "mt": 24
+         },
+         "dr": {
+          "x": 23,
+          "y": 1644,
+          "w": 512,
+          "h": 683
+         }
+        },
+        {
+         "kind": "image",
+         "image": "past-dancer",
+         "frame": false,
+         "link": null,
+         "alt": "Dancer",
+         "lightbox": "past-works",
+         "lightboxIndex": 4,
+         "title": "Dancer",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 392,
+          "order": 5,
+          "mt": 24
+         },
+         "dr": {
+          "x": 559,
+          "y": 1644,
+          "w": 512,
+          "h": 683
+         }
+        },
+        {
+         "kind": "image",
+         "image": "past-re-imagine",
+         "frame": false,
+         "link": null,
+         "alt": "Re-imagine",
+         "lightbox": "past-works",
+         "lightboxIndex": 5,
+         "title": "Re-imagine",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 392,
+          "order": 6,
+          "mt": 24
+         },
+         "dr": {
+          "x": 23,
+          "y": 2351,
+          "w": 1048,
+          "h": 800
+         }
+        },
+        {
+         "kind": "image",
+         "image": "past-owl-mug",
+         "frame": false,
+         "link": null,
+         "alt": "Owl Mug",
+         "lightbox": "past-works",
+         "lightboxIndex": 6,
+         "title": "Owl Mug",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 392,
+          "order": 7,
+          "mt": 24
+         },
+         "dr": {
+          "x": 23,
+          "y": 3175,
+          "w": 1048,
+          "h": 800
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<h1>Past Works</h1>",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 33,
+          "order": 0,
+          "mt": 24
+         },
+         "dr": {
+          "x": 303,
+          "y": 30,
+          "w": 488,
+          "h": 66
+         },
+         "sd": {
+          "font": "adobe-caslon-w01-smbd",
+          "size": 60,
+          "lh": 66,
+          "weight": "400",
+          "align": "center",
+          "color": "rgb(15, 35, 6)",
+          "transform": "capitalize"
+         },
+         "sm": {
+          "size": 30,
+          "lh": 33,
+          "align": "center"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "blank",
+   "route": "/portfolio/advanced",
+   "title": "Advanced",
+   "docTitle": "Advanced | Portfolio",
+   "bands": [
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 114,
+     "dh": 1713,
+     "children": [
+      {
+       "kind": "card",
+       "radius": 5,
+       "mobileContents": false,
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 1264,
+        "order": 0,
+        "mt": 41
+       },
+       "mpb": 48,
+       "dr": {
+        "x": 101,
+        "y": 41,
+        "w": 1083,
+        "h": 1636
+       },
+       "children": [
+        {
+         "kind": "image",
+         "image": "green-main",
+         "frame": false,
+         "link": "/portfolio/green",
+         "alt": "Advanced – main",
+         "mr": {
+          "x": 48,
+          "w": 280,
+          "h": 373,
+          "order": 1,
+          "mt": 24
+         },
+         "dr": {
+          "x": 23,
+          "y": 113,
+          "w": 512,
+          "h": 683
+         }
+        },
+        {
+         "kind": "image",
+         "image": "shaped-main",
+         "frame": false,
+         "link": "/portfolio/we-are-shaped",
+         "alt": "Advanced – main",
+         "mr": {
+          "x": 48,
+          "w": 280,
+          "h": 373,
+          "order": 2,
+          "mt": 24
+         },
+         "dr": {
+          "x": 559,
+          "y": 113,
+          "w": 512,
+          "h": 683
+         }
+        },
+        {
+         "kind": "image",
+         "image": "classroom-main",
+         "frame": false,
+         "link": "/portfolio/view-of-a-classroom",
+         "alt": "Advanced – main",
+         "mr": {
+          "x": 48,
+          "w": 280,
+          "h": 373,
+          "order": 3,
+          "mt": 25
+         },
+         "dr": {
+          "x": 23,
+          "y": 820,
+          "w": 1048,
+          "h": 800
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<h1>Advanced Portfolio</h1>",
+         "mr": {
+          "x": 0,
+          "w": 342,
+          "h": 33,
+          "order": 0,
+          "mt": 24
+         },
+         "dr": {
+          "x": 297,
+          "y": 28,
+          "w": 488,
+          "h": 66
+         },
+         "sd": {
+          "font": "adobe-caslon-w01-smbd",
+          "size": 60,
+          "lh": 66,
+          "weight": "400",
+          "align": "start",
+          "color": "rgb(15, 35, 6)",
+          "transform": "capitalize"
+         },
+         "sm": {
+          "size": 30,
+          "lh": 33,
+          "align": "start"
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "blank-2-1-1",
+   "route": "/portfolio/green",
+   "title": "Green",
+   "docTitle": "Green | Portfolio",
+   "bands": [
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 58,
+     "dh": 1751,
+     "children": [
+      {
+       "kind": "card",
+       "radius": 5,
+       "mobileContents": false,
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 1252,
+        "order": 0,
+        "mt": 58
+       },
+       "mpb": 24,
+       "dr": {
+        "x": 126,
+        "y": 58,
+        "w": 1083,
+        "h": 765
+       },
+       "children": [
+        {
+         "kind": "image",
+         "image": "green-main",
+         "frame": false,
+         "link": null,
+         "alt": "Green – main",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 300,
+          "order": 0,
+          "mt": 24
+         },
+         "dr": {
+          "x": 41,
+          "y": 18,
+          "w": 463,
+          "h": 611
+         }
+        },
+        {
+         "kind": "image",
+         "image": "green-main",
+         "frame": false,
+         "link": null,
+         "alt": "Green – main",
+         "mr": {
+          "x": 67,
+          "w": 207,
+          "h": 231,
+          "order": 1,
+          "mt": 24
+         },
+         "dr": {
+          "x": 400,
+          "y": 493,
+          "w": 207,
+          "h": 231
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<h1>Green</h1>",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 29,
+          "order": 2,
+          "mt": 23
+         },
+         "dr": {
+          "x": 653,
+          "y": 50,
+          "w": 402,
+          "h": 46
+         },
+         "sd": {
+          "font": "adobe-caslon-w01-smbd",
+          "size": 42,
+          "lh": 46.2,
+          "weight": "400",
+          "align": "center",
+          "color": "rgb(15, 35, 6)",
+          "transform": "capitalize"
+         },
+         "sm": {
+          "size": 26,
+          "lh": 28.6,
+          "align": "center"
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<p>My favorite color is the green that leaves turn as the sunlight glows through them. I've thought this since I was a little kid, walking through trails, going camping with my dad, and it still holds true today. Green is my favorite color. It represents life, nature, and a kind of freedom that I only feel when I'm outdoors. I feel so at peace and like myself with the wind blowing in my ears and green all around me. The feeling that I get when I look at nature was my inspiration for this piece. In a way, I feel that that sensation is my essence as a person. I wanted the leaves to have the faint glow of the sun filtered through them, and for the page to be covered in freeform doodles and stars. These are all things that speak to me, and paint that image of freedom, movement, and overwhelming peace.</p>",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 585,
+          "order": 3,
+          "mt": 12
+         },
+         "dr": {
+          "x": 681,
+          "y": 109,
+          "w": 346,
+          "h": 624
+         },
+         "sd": {
+          "font": "alfabet",
+          "size": 20,
+          "lh": 26,
+          "weight": "400",
+          "align": "start",
+          "color": "rgb(15, 35, 6)",
+          "transform": "none"
+         },
+         "sm": {
+          "size": 18,
+          "lh": 23.4,
+          "align": "center"
+         }
+        }
+       ]
+      },
+      {
+       "kind": "image",
+       "image": "green-process-1",
+       "frame": false,
+       "link": null,
+       "alt": "Green – process 1",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 300,
+        "order": 4,
+        "mt": 24
+       },
+       "dr": {
+        "x": 67,
+        "y": 1295,
+        "w": 331,
+        "h": 392
+       }
+      },
+      {
+       "kind": "image",
+       "image": "green-leaves-1",
+       "frame": false,
+       "link": null,
+       "alt": "Green – leaves 1",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 277,
+        "order": 1,
+        "mt": 40
+       },
+       "dr": {
+        "x": 205,
+        "y": 885,
+        "w": 417,
+        "h": 338
+       }
+      },
+      {
+       "kind": "image",
+       "image": "green-process-2",
+       "frame": false,
+       "link": null,
+       "alt": "Green – process 2",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 300,
+        "order": 3,
+        "mt": 40
+       },
+       "dr": {
+        "x": 468,
+        "y": 1295,
+        "w": 336,
+        "h": 393
+       }
+      },
+      {
+       "kind": "image",
+       "image": "green-leaves-2",
+       "frame": false,
+       "link": null,
+       "alt": "Green – leaves 2",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 300,
+        "order": 2,
+        "mt": 24
+       },
+       "dr": {
+        "x": 663,
+        "y": 885,
+        "w": 380,
+        "h": 337
+       }
+      },
+      {
+       "kind": "image",
+       "image": "green-process-3",
+       "frame": false,
+       "link": null,
+       "alt": "Green – process 3",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 300,
+        "order": 5,
+        "mt": 24
+       },
+       "dr": {
+        "x": 886,
+        "y": 1295,
+        "w": 344,
+        "h": 392
+       }
+      }
+     ]
+    },
+    {
+     "kind": "band",
+     "bg": "rgb(169, 180, 164)",
+     "mpb": 50,
+     "dh": 409,
+     "children": [
+      {
+       "kind": "text",
+       "html": "<h1>Technical Process</h1>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 29,
+        "order": 0,
+        "mt": 50
+       },
+       "dr": {
+        "x": 404,
+        "y": 50,
+        "w": 480,
+        "h": 44
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 40,
+        "lh": 44,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(15, 35, 6)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 28.6,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>I grabbed a piece of paper, some newspaper, and some rubber cement, and I began to cut out words, pictures, and titles that stuck out to me. I wanted to create a sense of urgency or chaos to symbolize the outside world and the escape that nature offers by literally covering some of the buzzwords. I cut each piece of paper out with an Exacto knife, glued it down, and left it to dry. I then began to paint a picture of a few leaves with light showing through them using acrylic paint. I cut these pieces out as well and set them on top to mark their locations. I then painted and cut out a few stars, and doodled a few freeform shapes on my collage with some markers. I took all of the leaves and stars off and used the printmaking stamps to add some pattern and repetition to make the work look less barren, and some halftone effects to fill the space. I then glued everything on top of it and put it in a frame.</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 562,
+        "order": 1,
+        "mt": 11
+       },
+       "dr": {
+        "x": 67,
+        "y": 94,
+        "w": 1139,
+        "h": 208
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 55,
+     "dh": 493,
+     "children": [
+      {
+       "kind": "text",
+       "html": "<h1>Elements and Principles</h1>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 29,
+        "order": 0,
+        "mt": 54
+       },
+       "dr": {
+        "x": 396,
+        "y": 54,
+        "w": 480,
+        "h": 44
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 40,
+        "lh": 44,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(15, 35, 6)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 28.6,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>For elements of art, I used primarily color, or emphasis of one color in order to make this project mean something. The excessive and exclusive use of green is what makes this piece exist. For principles of design, I used variety through the varied newspaper clippings, and the varied green painted pieces placed on top.</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 211,
+        "order": 1,
+        "mt": 12
+       },
+       "dr": {
+        "x": 81,
+        "y": 98,
+        "w": 1139,
+        "h": 78
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Critique 1:</p>\n\n<p>\"I like the idea, but it needs more. Try to add more layers\"</p>\n\n<p>-Ms. Johnson</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 94,
+        "order": 2,
+        "mt": 39
+       },
+       "dr": {
+        "x": 81,
+        "y": 242,
+        "w": 242,
+        "h": 130
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Critique 2:</p>\n\n<p>\"Maybe you could use some pre-cut printmaking stamps to create pattern?\"</p>\n\n<p>-Ms. Johnson</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 94,
+        "order": 3,
+        "mt": 12
+       },
+       "dr": {
+        "x": 516,
+        "y": 242,
+        "w": 242,
+        "h": 156
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Critique 3:</p>\n\n<p>\"I love the way its looking, and I love your emphasis on color, with the focus on a few specific tones.\"</p>\n\n<p>-Farah</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 117,
+        "order": 4,
+        "mt": 11
+       },
+       "dr": {
+        "x": 955,
+        "y": 242,
+        "w": 242,
+        "h": 156
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "band",
+     "bg": "rgb(169, 180, 164)",
+     "mpb": 50,
+     "dh": 392,
+     "children": [
+      {
+       "kind": "text",
+       "html": "<h1>Overall Reflection</h1>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 29,
+        "order": 0,
+        "mt": 50
+       },
+       "dr": {
+        "x": 400,
+        "y": 51,
+        "w": 480,
+        "h": 44
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 40,
+        "lh": 44,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(15, 35, 6)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 28.6,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Materials: Newspaper, acrylic paint, sharpies</p>\n\n<p>​</p>\n\n<p>Processes: Collage of newspaper, acrylic painted pieces glued on top</p>\n\n<p>​</p>\n\n<p>Size: 11 in x 14 in</p>\n\n<p>​</p>\n\n<p>Image Citation: Inspired by leaves of different kinds of trees, paid special attention to the colors of the leaves and the glow effect that light gives, doodles of stars and freeform drawings inspired by cybercigilism.</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 328,
+        "order": 1,
+        "mt": 12
+       },
+       "dr": {
+        "x": 67,
+        "y": 99,
+        "w": 1139,
+        "h": 208
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "blank-2-1",
+   "route": "/portfolio/we-are-shaped",
+   "title": "We Are Shaped",
+   "docTitle": "We Are Shaped | Portfolio",
+   "bands": [
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 58,
+     "dh": 1747,
+     "children": [
+      {
+       "kind": "card",
+       "radius": 5,
+       "mobileContents": false,
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 1301,
+        "order": 0,
+        "mt": 58
+       },
+       "mpb": 24,
+       "dr": {
+        "x": 126,
+        "y": 58,
+        "w": 1083,
+        "h": 910
+       },
+       "children": [
+        {
+         "kind": "image",
+         "image": "shaped-main",
+         "frame": false,
+         "link": null,
+         "alt": "We Are Shaped – main",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 218,
+          "order": 0,
+          "mt": 24
+         },
+         "dr": {
+          "x": 27,
+          "y": 50,
+          "w": 634,
+          "h": 471
+         }
+        },
+        {
+         "kind": "image",
+         "image": "shaped-main",
+         "frame": false,
+         "link": null,
+         "alt": "We Are Shaped – main",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 241,
+          "order": 1,
+          "mt": 24
+         },
+         "dr": {
+          "x": 143,
+          "y": 548,
+          "w": 402,
+          "h": 330
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<h1>We are shaped and fashioned by what we love</h1>",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 86,
+          "order": 2,
+          "mt": 40
+         },
+         "dr": {
+          "x": 653,
+          "y": 50,
+          "w": 402,
+          "h": 139
+         },
+         "sd": {
+          "font": "adobe-caslon-w01-smbd",
+          "size": 42,
+          "lh": 46.2,
+          "weight": "400",
+          "align": "center",
+          "color": "rgb(15, 35, 6)",
+          "transform": "capitalize"
+         },
+         "sm": {
+          "size": 26,
+          "lh": 28.6,
+          "align": "center"
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<p>This painting of my converse in black and white attempts to show them colored on, stained, beat up and adored. I wear them everywhere, all the time, and I feel that they are a reflection of the deepest parts of me. The song lyrics, the quotes, the doodles, and so many other things about them are parts of me I share with the world. I love that I can carry a tiny bit of my art with me wherever I go. This painting is meant to reflect the quote \"we are shaped and fashioned by what we love\" from the book \"Steal Like an Artist\". To me, this quote is a description of what happens when you find something that resonates with you, whether it be a song, an animal, a shape, or a color, that that thing will continue to appear in your life. When we love things we allow them to make us into who we are. My converse are a collection of the things that mean the most to me.</p>",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 632,
+          "order": 3,
+          "mt": 12
+         },
+         "dr": {
+          "x": 681,
+          "y": 201,
+          "w": 346,
+          "h": 676
+         },
+         "sd": {
+          "font": "alfabet",
+          "size": 20,
+          "lh": 26,
+          "weight": "400",
+          "align": "start",
+          "color": "rgb(15, 35, 6)",
+          "transform": "none"
+         },
+         "sm": {
+          "size": 18,
+          "lh": 23.4,
+          "align": "center"
+         }
+        }
+       ]
+      },
+      {
+       "kind": "image",
+       "image": "shaped-ref-1",
+       "frame": false,
+       "link": null,
+       "alt": "We Are Shaped – ref 1",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 277,
+        "order": 1,
+        "mt": 40
+       },
+       "dr": {
+        "x": 144,
+        "y": 998,
+        "w": 417,
+        "h": 338
+       }
+      },
+      {
+       "kind": "image",
+       "image": "shaped-ref-2",
+       "frame": false,
+       "link": null,
+       "alt": "We Are Shaped – ref 2",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 254,
+        "order": 3,
+        "mt": 40
+       },
+       "dr": {
+        "x": 669,
+        "y": 998,
+        "w": 454,
+        "h": 337
+       }
+      },
+      {
+       "kind": "image",
+       "image": "shaped-process-2",
+       "frame": false,
+       "link": null,
+       "alt": "We Are Shaped – process 2",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 259,
+        "order": 4,
+        "mt": 24
+       },
+       "dr": {
+        "x": 733,
+        "y": 1406,
+        "w": 390,
+        "h": 295
+       }
+      },
+      {
+       "kind": "image",
+       "image": "shaped-process-1",
+       "frame": false,
+       "link": null,
+       "alt": "We Are Shaped – process 1",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 248,
+        "order": 2,
+        "mt": 24
+       },
+       "dr": {
+        "x": 179,
+        "y": 1415,
+        "w": 382,
+        "h": 277
+       }
+      }
+     ]
+    },
+    {
+     "kind": "band",
+     "bg": "rgb(169, 180, 164)",
+     "mpb": 50,
+     "dh": 357,
+     "children": [
+      {
+       "kind": "text",
+       "html": "<h1>Technical Process</h1>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 29,
+        "order": 0,
+        "mt": 50
+       },
+       "dr": {
+        "x": 404,
+        "y": 50,
+        "w": 480,
+        "h": 44
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 40,
+        "lh": 44,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(15, 35, 6)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 28.6,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>For this piece, I started with a blank canvas and I sketched out the photo I took of my own shoes. I then painted over it with acrylic paints, using almost entirely black and white (plus a little brown), to get the tones I wanted. I attempted to establish enough contrast to make the scene catch the viewer's eye, and to add deep enough shadows that the design was almost pulled off the page. after painting, I used a white chalk pencil to sketch the white designs on the shoe, and I ended up liking the texture and not painting over it like I originally planned. I then used a black thin sharpie to do the black details on the shoe, and I sealed the painting with a matte varnish.</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 421,
+        "order": 1,
+        "mt": 11
+       },
+       "dr": {
+        "x": 67,
+        "y": 94,
+        "w": 1139,
+        "h": 156
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 54,
+     "dh": 597,
+     "children": [
+      {
+       "kind": "text",
+       "html": "<h1>Elements and Principles</h1>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 29,
+        "order": 0,
+        "mt": 55
+       },
+       "dr": {
+        "x": 396,
+        "y": 55,
+        "w": 480,
+        "h": 44
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 40,
+        "lh": 44,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(15, 35, 6)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 28.6,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>The primary element of art I used in this piece was value, especially through my use of almost exclusively black and white. For elements of design, I used mostly emphasis in order to make the shoes stand out on the stark white background.</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 164,
+        "order": 1,
+        "mt": 11
+       },
+       "dr": {
+        "x": 81,
+        "y": 99,
+        "w": 1139,
+        "h": 78
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Critique 1:</p>\n\n<p>\"Is there any way to incorporate more contrast in this piece?\"</p>\n\n<p>-Nicolas</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 94,
+        "order": 2,
+        "mt": 40
+       },
+       "dr": {
+        "x": 81,
+        "y": 243,
+        "w": 242,
+        "h": 130
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Critique 2:</p>\n\n<p>\"Try adding a shadow to offset the sneakers from the page and make sure you continue it down the side of the canvas.\"&nbsp;</p>\n\n<p>-Ms. Johnson</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 140,
+        "order": 3,
+        "mt": 12
+       },
+       "dr": {
+        "x": 516,
+        "y": 243,
+        "w": 242,
+        "h": 182
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Critique 3:</p>\n\n<p>\"I would leave the white colored pencil marks, it looks like the same material as the shoes and I think it's really cool. I wouldn't want this piece to lose that by painting over it.\"</p>\n\n<p>-Simonne</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 164,
+        "order": 4,
+        "mt": 12
+       },
+       "dr": {
+        "x": 955,
+        "y": 243,
+        "w": 242,
+        "h": 260
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "band",
+     "bg": "rgb(169, 180, 164)",
+     "mpb": 51,
+     "dh": 337,
+     "children": [
+      {
+       "kind": "text",
+       "html": "<h1>Overall Reflection</h1>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 29,
+        "order": 0,
+        "mt": 51
+       },
+       "dr": {
+        "x": 400,
+        "y": 51,
+        "w": 480,
+        "h": 44
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 40,
+        "lh": 44,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(15, 35, 6)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 28.6,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Materials: Acrylic on canvas, chalk pencil, sharpie</p>\n\n<p>​</p>\n\n<p>Processes: Typical painting with brushes, pens and pencils used for text and designs</p>\n\n<p>​</p>\n\n<p>Size: 12 in x 9 in</p>\n\n<p>​</p>\n\n<p>Image Citation: Inspired by alternative drawing on converse, cybersigilism styles, doodles</p>\n\n<p>​</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 304,
+        "order": 1,
+        "mt": 11
+       },
+       "dr": {
+        "x": 67,
+        "y": 99,
+        "w": 1139,
+        "h": 208
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "blank-2",
+   "route": "/portfolio/view-of-a-classroom",
+   "title": "View of A Classroom",
+   "docTitle": "View of A Classroom | Portfolio",
+   "bands": [
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 58,
+     "dh": 1610,
+     "children": [
+      {
+       "kind": "card",
+       "radius": 5,
+       "mobileContents": false,
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 1152,
+        "order": 0,
+        "mt": 58
+       },
+       "mpb": 24,
+       "dr": {
+        "x": 126,
+        "y": 58,
+        "w": 1083,
+        "h": 771
+       },
+       "children": [
+        {
+         "kind": "image",
+         "image": "classroom-main",
+         "frame": false,
+         "link": null,
+         "alt": "View of A Classroom – main",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 271,
+          "order": 0,
+          "mt": 24
+         },
+         "dr": {
+          "x": 42,
+          "y": 50,
+          "w": 483,
+          "h": 445
+         }
+        },
+        {
+         "kind": "image",
+         "image": "classroom-main",
+         "frame": false,
+         "link": null,
+         "alt": "View of A Classroom – main",
+         "mr": {
+          "x": 51,
+          "w": 240,
+          "h": 213,
+          "order": 1,
+          "mt": 24
+         },
+         "dr": {
+          "x": 163,
+          "y": 522,
+          "w": 240,
+          "h": 213
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<h1>View of a Classroom</h1>",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 29,
+          "order": 2,
+          "mt": 40
+         },
+         "dr": {
+          "x": 653,
+          "y": 50,
+          "w": 402,
+          "h": 46
+         },
+         "sd": {
+          "font": "adobe-caslon-w01-smbd",
+          "size": 42,
+          "lh": 46.2,
+          "weight": "400",
+          "align": "center",
+          "color": "rgb(15, 35, 6)",
+          "transform": "capitalize"
+         },
+         "sm": {
+          "size": 26,
+          "lh": 28.6,
+          "align": "center"
+         }
+        },
+        {
+         "kind": "text",
+         "html": "<p>This painting was inspired by the work of Maurice de Vlaminck, specifically his painting Bougival. I loved the way he used color to capture emotion, bringing in hues of blues and deeply saturated oranges to capture an overwhelming sense of nostalgia. In Bougival, Vlaminck paints a beautiful hilly scene littered with trees and houses. I wanted to reflect the idea that the classroom is now where time is spent. Instead of being raised outside, I grew up within a school. In Bougival the scene is open and soaring with visible clouds and shoreline, whereas in the classroom, the space feels enclosed and tight, mimicking the way that life is structured around education.</p>",
+         "mr": {
+          "x": 24,
+          "w": 294,
+          "h": 515,
+          "order": 3,
+          "mt": 12
+         },
+         "dr": {
+          "x": 681,
+          "y": 109,
+          "w": 346,
+          "h": 520
+         },
+         "sd": {
+          "font": "alfabet",
+          "size": 20,
+          "lh": 26,
+          "weight": "400",
+          "align": "start",
+          "color": "rgb(15, 35, 6)",
+          "transform": "none"
+         },
+         "sm": {
+          "size": 18,
+          "lh": 23.4,
+          "align": "center"
+         }
+        }
+       ]
+      },
+      {
+       "kind": "image",
+       "image": "classroom-ref-bougival",
+       "frame": false,
+       "link": null,
+       "alt": "View of A Classroom – ref bougival",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 277,
+        "order": 1,
+        "mt": 40
+       },
+       "dr": {
+        "x": 19,
+        "y": 863,
+        "w": 397,
+        "h": 321
+       }
+      },
+      {
+       "kind": "image",
+       "image": "classroom-ref-photo",
+       "frame": false,
+       "link": null,
+       "alt": "View of A Classroom – ref photo",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 300,
+        "order": 3,
+        "mt": 40
+       },
+       "dr": {
+        "x": 425,
+        "y": 863,
+        "w": 362,
+        "h": 321
+       }
+      },
+      {
+       "kind": "image",
+       "image": "classroom-sketch",
+       "frame": false,
+       "link": null,
+       "alt": "View of A Classroom – sketch",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 253,
+        "order": 5,
+        "mt": 40
+       },
+       "dr": {
+        "x": 805,
+        "y": 863,
+        "w": 456,
+        "h": 337
+       }
+      },
+      {
+       "kind": "image",
+       "image": "classroom-process-1",
+       "frame": false,
+       "link": null,
+       "alt": "View of A Classroom – process 1",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 300,
+        "order": 2,
+        "mt": 24
+       },
+       "dr": {
+        "x": 19,
+        "y": 1226,
+        "w": 389,
+        "h": 344
+       }
+      },
+      {
+       "kind": "image",
+       "image": "classroom-process-2",
+       "frame": false,
+       "link": null,
+       "alt": "View of A Classroom – process 2",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 300,
+        "order": 4,
+        "mt": 24
+       },
+       "dr": {
+        "x": 441,
+        "y": 1225,
+        "w": 389,
+        "h": 344
+       }
+      },
+      {
+       "kind": "image",
+       "image": "classroom-process-3",
+       "frame": false,
+       "link": null,
+       "alt": "View of A Classroom – process 3",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 300,
+        "order": 6,
+        "mt": 24
+       },
+       "dr": {
+        "x": 866,
+        "y": 1225,
+        "w": 389,
+        "h": 345
+       }
+      }
+     ]
+    },
+    {
+     "kind": "band",
+     "bg": "rgb(169, 180, 164)",
+     "mpb": 50,
+     "dh": 513,
+     "children": [
+      {
+       "kind": "text",
+       "html": "<h1>Technical Process</h1>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 29,
+        "order": 0,
+        "mt": 49
+       },
+       "dr": {
+        "x": 404,
+        "y": 49,
+        "w": 480,
+        "h": 44
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 40,
+        "lh": 44,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(15, 35, 6)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 28.6,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>To start this project, I knew I wanted some roughed up wood to paint on, so I ventured into the scene shop (sorry Mr. Parr). I found 3 little pieces of wood littered with screw holes, caked with old paint, and muddied with different colors. It was obvious that they had been used many times before. I painted the tops white with a few thick coats of acrylic paint, and I began to sketch my design. I knew from the moment I saw Bougival, that I wanted to paint a classroom, so I immediately started sketching desks, blackboards, and a typical classroom scene. I went in with some highly saturated colors, and used the painting beside my reference image in order to get the colors as close as possible. I painted by color blocking the shadows and using my fingers to blend the paint. Maurice de Vlaminck often painted directly with his fingers onto the canvas, and I tried to mimic that as well. I did this mostly on the ground where the blue fades into yellow, and it honestly worked very well. I filled in the background, using yellows for highlights, deep blues for shadows, and bits of red in my midtones. Once I was finished painting, I had the idea to install this piece with gaps in between the blocks of wood. I thought that having shadows on the pieces would bring more emphasis to the color, and after testing it out I was right. I screwed in some metal seperater plates and got ready to hang my piece.</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 866,
+        "order": 1,
+        "mt": 12
+       },
+       "dr": {
+        "x": 67,
+        "y": 93,
+        "w": 1139,
+        "h": 312
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "band",
+     "bg": "rgb(92, 107, 85)",
+     "mpb": 54,
+     "dh": 623,
+     "children": [
+      {
+       "kind": "text",
+       "html": "<h1>Elements and Principles</h1>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 29,
+        "order": 0,
+        "mt": 55
+       },
+       "dr": {
+        "x": 396,
+        "y": 54,
+        "w": 480,
+        "h": 44
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 40,
+        "lh": 44,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(15, 35, 6)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 28.6,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>The main element of art that I used in this piece was color, as that's the aspect I \"stole\" from the gallery piece I found, and the main focus of the piece. As for principles, I utilized mostly movement as the sunlight makes the scene move from the window, to the desks, to the boards in the background, and across the entire scene.</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 211,
+        "order": 1,
+        "mt": 11
+       },
+       "dr": {
+        "x": 81,
+        "y": 98,
+        "w": 1139,
+        "h": 78
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Critique 1:</p>\n\n<p>\"Try to make the legs of the desks more defined, and focus on the perspective of the image.\"</p>\n\n<p>-Nicolas</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 117,
+        "order": 2,
+        "mt": 40
+       },
+       "dr": {
+        "x": 81,
+        "y": 242,
+        "w": 242,
+        "h": 182
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Critique 2:</p>\n\n<p>\"What if you hang the boards with some space in between to make the colors pop more? I think it'd look really cool\"</p>\n\n<p>-Monika</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 117,
+        "order": 3,
+        "mt": 12
+       },
+       "dr": {
+        "x": 516,
+        "y": 242,
+        "w": 242,
+        "h": 182
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Critique 3:</p>\n\n<p>\"I love the way the scene flows together, with the sunlight into the desks and onto the board. I think you do a very good job of using color to get that done. What are your plans for the back board?\"</p>\n\n<p>-Ms. Johnson</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 187,
+        "order": 4,
+        "mt": 12
+       },
+       "dr": {
+        "x": 955,
+        "y": 242,
+        "w": 242,
+        "h": 286
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      }
+     ]
+    },
+    {
+     "kind": "band",
+     "bg": "rgb(169, 180, 164)",
+     "mpb": 51,
+     "dh": 366,
+     "children": [
+      {
+       "kind": "text",
+       "html": "<h1>Overall Reflection</h1>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 29,
+        "order": 0,
+        "mt": 50
+       },
+       "dr": {
+        "x": 400,
+        "y": 50,
+        "w": 480,
+        "h": 44
+       },
+       "sd": {
+        "font": "adobe-caslon-w01-smbd",
+        "size": 40,
+        "lh": 44,
+        "weight": "400",
+        "align": "center",
+        "color": "rgb(15, 35, 6)",
+        "transform": "capitalize"
+       },
+       "sm": {
+        "size": 26,
+        "lh": 28.6,
+        "align": "center"
+       }
+      },
+      {
+       "kind": "text",
+       "html": "<p>Materials: Acrylic on recycled wood, meant to reflect people stuck in schools wishing they were in nature</p>\n\n<p>​</p>\n\n<p>Processes: Typical painting with brushes, sanded wood, fingers to blend and give impressionist look</p>\n\n<p>​</p>\n\n<p>Size: 12 in x 12 in</p>\n\n<p>​</p>\n\n<p>Image Citation: Maurice de Vlamnick's <em>Bougival, </em>Fauvist style painting, Traditional classrooms</p>",
+       "mr": {
+        "x": 24,
+        "w": 342,
+        "h": 304,
+        "order": 1,
+        "mt": 12
+       },
+       "dr": {
+        "x": 67,
+        "y": 98,
+        "w": 1139,
+        "h": 182
+       },
+       "sd": {
+        "font": "alfabet",
+        "size": 20,
+        "lh": 26,
+        "weight": "400",
+        "align": "start",
+        "color": "rgb(15, 35, 6)",
+        "transform": "none"
+       },
+       "sm": {
+        "size": 18,
+        "lh": 23.4,
+        "align": "center"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

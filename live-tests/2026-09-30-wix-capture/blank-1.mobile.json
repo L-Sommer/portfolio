@@ -1,0 +1,236 @@
+{
+  "title": "About Me | Portfolio",
+  "description": null,
+  "favicon": "https://www.wix.com/favicon.ico",
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "height": 1646,
+  "fonts": [
+    "adobe-caslon-w01-smbd 400 normal",
+    "alfabet 400 normal"
+  ],
+  "texts": [
+    {
+      "tag": "span",
+      "text": "About Me",
+      "box": {
+        "x": 24,
+        "y": 410,
+        "w": 111,
+        "h": 27
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Art has been a part of my life for as long as I can remember. My mom studied graphic design, so our house was always filled with art supplies that I loved playing with. Her appreciation for design and visual storytelling shaped how I see the world around me, eventually inspiring me to try and create art myself.",
+      "box": {
+        "x": 24,
+        "y": 819,
+        "w": 342,
+        "h": 209
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Since childhood, I've spent countless hours drawing, painting, and exploring ways to create. What began as a passion became an important way for me to interpret and connect with the world.",
+      "box": {
+        "x": 24,
+        "y": 1029,
+        "w": 328,
+        "h": 139
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "I believe art is a continuous process of exploration rather than perfection. Each project is an opportunity to refine my skills, experiment with new ideas, and develop a stronger artistic voice. Whether working in traditional or digital media, I strive to create work that is thoughtful, intentional, and visually compelling.",
+      "box": {
+        "x": 24,
+        "y": 1170,
+        "w": 338,
+        "h": 209
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Skip to Main Content\nAbout Me\n\n   Art has been a part of my life for as long as I can remember. My mom studied graphic design, so our house was always filled with art supplies that I loved playing with. Her appreciation for design and visual storytelling shaped how I see the world around me, eventually inspiring me to try and create art myself.\n\n   Since childhood, I've spent countless hours drawing, painting, and exploring ways to create. What began as a passion became an important way for me to interpret and connect with the world.\n\n   I believe art is a continuous process of exploration rather than perfection. Each project is an opportunity to refine my skills, experiment with new ideas, and develop a stronger artistic voice. Whether working in traditional or digital media, I strive to create work that is thoughtful, intentional, and visually compelling.",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 1612
+      },
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "10px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_2a7cfcab233d4623ae79263379e26985~mv2.jpg/v1/fill/w_322,h_280,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Headshot%20image_edited.jpg",
+      "alt": "Headshot image_edited.jpg",
+      "box": {
+        "x": 34,
+        "y": 489,
+        "w": 322,
+        "h": 280
+      },
+      "natural": {
+        "w": 322,
+        "h": 280
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [],
+  "sections": [
+    {
+      "tag": "section",
+      "id": "comp-mrier6qc_r_comp-mb7ogqqn",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrier6qc_r_comp-mhs1biva",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mrier6fx",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 1342
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrier6fz4",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 1342
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrigsfme2",
+      "box": {
+        "x": 24,
+        "y": 170,
+        "w": 342,
+        "h": 200
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mrier6ts_r_comp-kbgakgyt",
+      "box": {
+        "x": 0,
+        "y": 1446,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrier6ts_r_comp-mdr17w8k",
+      "box": {
+        "x": 0,
+        "y": 1446,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    }
+  ]
+}

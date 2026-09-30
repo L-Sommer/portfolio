@@ -1,0 +1,730 @@
+{
+  "title": "We Are Shaped | Portfolio",
+  "description": null,
+  "favicon": "https://www.wix.com/favicon.ico",
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "height": 4669,
+  "fonts": [
+    "adobe-caslon-w01-smbd 400 normal",
+    "alfabet 400 normal"
+  ],
+  "texts": [
+    {
+      "tag": "h1",
+      "text": "We Are Shaped And Fashioned By What We Love",
+      "box": {
+        "x": 48,
+        "y": 709,
+        "w": 294,
+        "h": 86
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "This painting of my converse in black and white attempts to show them colored on, stained, beat up and adored. I wear them everywhere, all the time, and I feel that they are a reflection of the deepest parts of me. The song lyrics, the quotes, the doodles, and so many other things about them are parts of me I share with the world. I love that I can carry a tiny bit of my art with me wherever I go. This painting is meant to reflect the quote \"we are shaped and fashioned by what we love\" from the book \"Steal Like an Artist\". To me, this quote is a description of what happens when you find something that resonates with you, whether it be a song, an animal, a shape, or a color, that that thing will continue to appear in your life. When we love things we allow them to make us into who we are. My converse are a collection of the things that mean the most to me.",
+      "box": {
+        "x": 49,
+        "y": 807,
+        "w": 293,
+        "h": 631
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Technical Process",
+      "box": {
+        "x": 24,
+        "y": 2737,
+        "w": 342,
+        "h": 29
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "For this piece, I started with a blank canvas and I sketched out the photo I took of my own shoes. I then painted over it with acrylic paints, using almost entirely black and white (plus a little brown), to get the tones I wanted. I attempted to establish enough contrast to make the scene catch the viewer's eye, and to add deep enough shadows that the design was almost pulled off the page. after painting, I used a white chalk pencil to sketch the white designs on the shoe, and I ended up liking the texture and not painting over it like I originally planned. I then used a black thin sharpie to do the black details on the shoe, and I sealed the painting with a matte varnish.",
+      "box": {
+        "x": 25,
+        "y": 2777,
+        "w": 340,
+        "h": 420
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Elements And Principles",
+      "box": {
+        "x": 24,
+        "y": 3303,
+        "w": 342,
+        "h": 29
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "p",
+      "text": "The primary element of art I used in this piece was value, especially through my use of almost exclusively black and white. For elements of design, I used mostly emphasis in order to make the shoes stand out on the stark white background.",
+      "box": {
+        "x": 24,
+        "y": 3343,
+        "w": 342,
+        "h": 164
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "p",
+      "text": "Critique 1:",
+      "box": {
+        "x": 24,
+        "y": 3547,
+        "w": 342,
+        "h": 23
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "\"Is there any way to incorporate more contrast in this piece?\"",
+      "box": {
+        "x": 37,
+        "y": 3570,
+        "w": 317,
+        "h": 45
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "-Nicolas",
+      "box": {
+        "x": 159,
+        "y": 3617,
+        "w": 71,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Critique 2:",
+      "box": {
+        "x": 151,
+        "y": 3653,
+        "w": 88,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "\"Try adding a shadow to offset the sneakers from the page and make sure you continue it down the side of the canvas.\"",
+      "box": {
+        "x": 29,
+        "y": 3676,
+        "w": 333,
+        "h": 92
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "-Ms. Johnson",
+      "box": {
+        "x": 138,
+        "y": 3770,
+        "w": 115,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Critique 3:",
+      "box": {
+        "x": 151,
+        "y": 3805,
+        "w": 88,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "\"I would leave the white colored pencil marks, it looks like the same material as the shoes and I think it's really cool. I wouldn't want this piece to lose that by painting over it.\"",
+      "box": {
+        "x": 25,
+        "y": 3829,
+        "w": 340,
+        "h": 116
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "-Simonne",
+      "box": {
+        "x": 153,
+        "y": 3946,
+        "w": 84,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "h1",
+      "text": "Overall Reflection",
+      "box": {
+        "x": 24,
+        "y": 4074,
+        "w": 342,
+        "h": 29
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "26px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "28.6px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Materials: Acrylic on canvas, chalk pencil, sharpie",
+      "box": {
+        "x": 49,
+        "y": 4114,
+        "w": 293,
+        "h": 45
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Processes: Typical painting with brushes, pens and pencils used for text and designs",
+      "box": {
+        "x": 28,
+        "y": 4185,
+        "w": 334,
+        "h": 69
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Size: 12 in x 9 in",
+      "box": {
+        "x": 127,
+        "y": 4278,
+        "w": 136,
+        "h": 22
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Image Citation: Inspired by alternative drawing on converse, cybersigilism styles, doodles",
+      "box": {
+        "x": 33,
+        "y": 4325,
+        "w": 324,
+        "h": 69
+      },
+      "font": "alfabet, sans-serif",
+      "size": "18px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "23.4px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Skip to Main Content\nWe Are Shaped And Fashioned By What We Love\n\nThis painting of my converse in black and white attempts to show them colored on, stained, beat up and adored. I wear them everywhere, all the time, and I feel that they are a reflection of the deepest parts of me. The song lyrics, the quotes, the doodles, and so many other things about them are parts of me I share with the world. I love that I can carry a tiny bit of my art with me wherever I go. This painting is meant to reflect the quote \"we are shaped and fashioned by what we love\" from the book \"Steal Like an Artist\". To me, this quote is a description of what happens when you find something that resonates with you, whether it be a song, an animal, a shape, or a color, that that thing will continue to appear in your life. When we love things we allow them to make us into who we are. My converse are a collection of the things that mean the most to me.\n\nTechnical Process\n\nFor this piece, I started with a blank canvas and I sketched out the photo I took of my own shoes. I then painted over it with acrylic paints, using almost entirely black and white (plus a little brown), to get the tones I wanted. I attempted to establish enough contrast to make the scene catch the viewer's eye, and to add deep enough shadows that the design was almost pulled off the page. after painting, I used a white chalk pencil to sketch the white designs on the shoe, and I ended up liking the texture and not painting over it like I originally planned. I then used a black thin sharpie to do the black details on the shoe, and I sealed the painting with a matte varnish.\n\nElements And Principles\n\nThe primary element of art I used in this piece was value, especially through my use of almost exclusively black and white. For elements of design, I used mostly emphasis in order to make the shoes stand out on the stark white background.\n\nCritique 1:\n\n\"Is there any way to incorporate more contrast in this piece?\"\n\n-Nicolas\n\nCritique 2:\n\n\"Try adding a shadow to offset the sneakers from the page and make sure you continue it down the side of the canvas.\" \n\n-Ms. Johnson\n\nCritique 3:\n\n\"I would leave the white colored pencil marks, it looks like the same material as the shoes and I think it's really cool. I wouldn't want this piece to lose that by painting over it.\"\n\n-Simonne\n\nOverall Reflection\n\nMaterials: Acrylic on canvas, chalk pencil, sharpie\n\n​\n\nProcesses: Typical painting with brushes, pens and pencils used for text and designs\n\n​\n\nSize: 12 in x 9 in\n\n​\n\nImage Citation: Inspired by alternative drawing on converse, cybersigilism styles, doodles\n\n​",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 390,
+        "h": 4635
+      },
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "10px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_b881d806dc2544ffa3e57d925f906094~mv2.jpeg/v1/crop/x_0,y_23,w_2690,h_1996/fill/w_294,h_218,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9039.jpeg",
+      "alt": "IMG_9039.jpeg",
+      "box": {
+        "x": 48,
+        "y": 186,
+        "w": 294,
+        "h": 218
+      },
+      "natural": {
+        "w": 294,
+        "h": 218
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_b881d806dc2544ffa3e57d925f906094~mv2.jpeg/v1/crop/x_778,y_501,w_1121,h_920/fill/w_294,h_241,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_9039.jpeg",
+      "alt": "IMG_9039.jpeg",
+      "box": {
+        "x": 48,
+        "y": 428,
+        "w": 294,
+        "h": 241
+      },
+      "natural": {
+        "w": 294,
+        "h": 241
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_c151c15927514611a82623aeb821586c~mv2.png/v1/crop/x_0,y_677,w_3024,h_2449/fill/w_342,h_277,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8844_HEIC.png",
+      "alt": "IMG_8844.HEIC",
+      "box": {
+        "x": 24,
+        "y": 1503,
+        "w": 342,
+        "h": 277
+      },
+      "natural": {
+        "w": 342,
+        "h": 277
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_5cf23f00231f453f990b5316cc87b394~mv2.png/v1/fill/w_342,h_254,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8946_HEIC.png",
+      "alt": "IMG_8946.HEIC",
+      "box": {
+        "x": 24,
+        "y": 2092,
+        "w": 342,
+        "h": 254
+      },
+      "natural": {
+        "w": 342,
+        "h": 254
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_dbb28a880c67408e982f3eb50e82b097~mv2.jpeg/v1/crop/x_393,y_1348,w_2402,h_1821/fill/w_342,h_259,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8993.jpeg",
+      "alt": "IMG_8993.jpeg",
+      "box": {
+        "x": 24,
+        "y": 2370,
+        "w": 342,
+        "h": 259
+      },
+      "natural": {
+        "w": 342,
+        "h": 259
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_276b28e9df0843b2b4157f92c476f0cd~mv2.jpeg/v1/crop/x_158,y_1004,w_2686,h_2044/fill/w_342,h_248,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/IMG_8991.jpeg",
+      "alt": "IMG_8991.jpeg",
+      "box": {
+        "x": 24,
+        "y": 1804,
+        "w": 342,
+        "h": 248
+      },
+      "natural": {
+        "w": 342,
+        "h": 248
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": null
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [],
+  "sections": [
+    {
+      "tag": "section",
+      "id": "comp-msu1ngvm_r_comp-mb7ogqqn",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1ngvm_r_comp-mhs1biva",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 390,
+        "h": 70
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1ngvs",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 2583
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1ngwy4",
+      "box": {
+        "x": 0,
+        "y": 104,
+        "w": 390,
+        "h": 2583
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1ngw1",
+      "box": {
+        "x": 24,
+        "y": 162,
+        "w": 342,
+        "h": 1301
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1ngx63",
+      "box": {
+        "x": 0,
+        "y": 2687,
+        "w": 390,
+        "h": 561
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1ngxm",
+      "box": {
+        "x": 0,
+        "y": 2687,
+        "w": 390,
+        "h": 561
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1ngxr3",
+      "box": {
+        "x": 0,
+        "y": 3248,
+        "w": 390,
+        "h": 775
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1ngyq1",
+      "box": {
+        "x": 0,
+        "y": 3248,
+        "w": 390,
+        "h": 775
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1ngyv3",
+      "box": {
+        "x": 0,
+        "y": 4023,
+        "w": 390,
+        "h": 446
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1ngz93",
+      "box": {
+        "x": 0,
+        "y": 4023,
+        "w": 390,
+        "h": 446
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-msu1ngzf3_r_comp-kbgakgyt",
+      "box": {
+        "x": 0,
+        "y": 4469,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-msu1ngzf3_r_comp-mdr17w8k",
+      "box": {
+        "x": 0,
+        "y": 4469,
+        "w": 390,
+        "h": 200
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    }
+  ]
+}

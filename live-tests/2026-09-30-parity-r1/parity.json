@@ -1,0 +1,114 @@
+[
+  {
+    "page": "/portfolio",
+    "vp": "desktop",
+    "wixH": 1070,
+    "replicaH": 1070,
+    "heightDelta": 0,
+    "diffPct": 2.04
+  },
+  {
+    "page": "/portfolio/about",
+    "vp": "desktop",
+    "wixH": 911,
+    "replicaH": 911,
+    "heightDelta": 0,
+    "diffPct": 2.68
+  },
+  {
+    "page": "/portfolio/past-works",
+    "vp": "desktop",
+    "wixH": 4318,
+    "replicaH": 4318,
+    "heightDelta": 0,
+    "diffPct": 32.24
+  },
+  {
+    "page": "/portfolio/advanced",
+    "vp": "desktop",
+    "wixH": 1927,
+    "replicaH": 1927,
+    "heightDelta": 0,
+    "diffPct": 36.89
+  },
+  {
+    "page": "/portfolio/green",
+    "vp": "desktop",
+    "wixH": 3258,
+    "replicaH": 3259,
+    "heightDelta": 1,
+    "diffPct": 9.15
+  },
+  {
+    "page": "/portfolio/we-are-shaped",
+    "vp": "desktop",
+    "wixH": 3253,
+    "replicaH": 3252,
+    "heightDelta": -1,
+    "diffPct": 7.52
+  },
+  {
+    "page": "/portfolio/view-of-a-classroom",
+    "vp": "desktop",
+    "wixH": 3326,
+    "replicaH": 3326,
+    "heightDelta": 0,
+    "diffPct": 7.35
+  },
+  {
+    "page": "/portfolio",
+    "vp": "mobile",
+    "wixH": 810,
+    "replicaH": 844,
+    "heightDelta": 34,
+    "diffPct": 10.11
+  },
+  {
+    "page": "/portfolio/about",
+    "vp": "mobile",
+    "wixH": 1612,
+    "replicaH": 844,
+    "heightDelta": -768,
+    "diffPct": 74.29
+  },
+  {
+    "page": "/portfolio/past-works",
+    "vp": "mobile",
+    "wixH": 3465,
+    "replicaH": 3465,
+    "heightDelta": 0,
+    "diffPct": 1.14
+  },
+  {
+    "page": "/portfolio/advanced",
+    "vp": "mobile",
+    "wixH": 1689,
+    "replicaH": 1722,
+    "heightDelta": 33,
+    "diffPct": 22.92
+  },
+  {
+    "page": "/portfolio/green",
+    "vp": "mobile",
+    "wixH": 5166,
+    "replicaH": 5162,
+    "heightDelta": -4,
+    "diffPct": 10.9
+  },
+  {
+    "page": "/portfolio/we-are-shaped",
+    "vp": "mobile",
+    "wixH": 4635,
+    "replicaH": 4633,
+    "heightDelta": -2,
+    "diffPct": 11.86
+  },
+  {
+    "page": "/portfolio/view-of-a-classroom",
+    "vp": "mobile",
+    "wixH": 5756,
+    "replicaH": 5754,
+    "heightDelta": -2,
+    "diffPct": 6.09
+  }
+]

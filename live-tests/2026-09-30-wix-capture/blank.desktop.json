@@ -1,0 +1,398 @@
+{
+  "title": "Advanced | Portfolio",
+  "description": null,
+  "favicon": "https://www.wix.com/favicon.ico",
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "height": 1961,
+  "fonts": [
+    "adobe-caslon-w01-smbd 400 normal",
+    "dm-sans 400 normal"
+  ],
+  "texts": [
+    {
+      "tag": "span",
+      "text": "LS",
+      "box": {
+        "x": 35,
+        "y": 66,
+        "w": 45,
+        "h": 33
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "25.0001px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "32.5001px",
+      "letterSpacing": "normal",
+      "color": "rgb(254, 255, 251)",
+      "align": "center",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "About Me",
+      "box": {
+        "x": 930,
+        "y": 70,
+        "w": 72,
+        "h": 22
+      },
+      "font": "dm-sans, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(254, 255, 251)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Past Works",
+      "box": {
+        "x": 1031,
+        "y": 70,
+        "w": 82,
+        "h": 22
+      },
+      "font": "dm-sans, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(254, 255, 251)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    },
+    {
+      "tag": "span",
+      "text": "Advanced",
+      "box": {
+        "x": 1142,
+        "y": 71,
+        "w": 74,
+        "h": 21
+      },
+      "font": "dm-sans, sans-serif",
+      "size": "16px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "20.8px",
+      "letterSpacing": "normal",
+      "color": "rgb(254, 255, 251)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "underline"
+    },
+    {
+      "tag": "h1",
+      "text": "Advanced Portfolio",
+      "box": {
+        "x": 398,
+        "y": 189,
+        "w": 488,
+        "h": 66
+      },
+      "font": "adobe-caslon-w01-smbd, serif",
+      "size": "60px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "66px",
+      "letterSpacing": "normal",
+      "color": "rgb(15, 35, 6)",
+      "align": "start",
+      "transform": "capitalize",
+      "decoration": "none"
+    },
+    {
+      "tag": "div",
+      "text": "Skip to Main Content\nLS\nAbout Me\nPast Works\nAdvanced\nAdvanced Portfolio",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1280,
+        "h": 1927
+      },
+      "font": "Arial, Helvetica, sans-serif",
+      "size": "10px",
+      "weight": "400",
+      "style": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "color": "rgb(0, 0, 0)",
+      "align": "start",
+      "transform": "none",
+      "decoration": "none"
+    }
+  ],
+  "images": [
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_067adb9e0f6242bd89d67f941364fa30~mv2.png/v1/fill/w_512,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/40cbf7_067adb9e0f6242bd89d67f941364fa30~mv2.png",
+      "alt": "",
+      "box": {
+        "x": 124,
+        "y": 274,
+        "w": 512,
+        "h": 683
+      },
+      "natural": {
+        "w": 512,
+        "h": 675
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": "https://lilys271.wixsite.com/portfolio/blank-2-1-1"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_b881d806dc2544ffa3e57d925f906094~mv2.jpeg/v1/fill/w_512,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/40cbf7_b881d806dc2544ffa3e57d925f906094~mv2.jpeg",
+      "alt": "",
+      "box": {
+        "x": 660,
+        "y": 274,
+        "w": 512,
+        "h": 683
+      },
+      "natural": {
+        "w": 512,
+        "h": 384
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": "https://lilys271.wixsite.com/portfolio/blank-2-1"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/40cbf7_df79e605ace74348ae00ea7a4ace7459~mv2.png/v1/fill/w_811,h_800,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/40cbf7_df79e605ace74348ae00ea7a4ace7459~mv2.png",
+      "alt": "",
+      "box": {
+        "x": 124,
+        "y": 981,
+        "w": 1048,
+        "h": 800
+      },
+      "natural": {
+        "w": 811,
+        "h": 800
+      },
+      "objectFit": "cover",
+      "objectPosition": "50% 50%",
+      "radius": "0px",
+      "link": "https://lilys271.wixsite.com/portfolio/blank-2"
+    }
+  ],
+  "bgImages": [],
+  "videos": [],
+  "links": [
+    {
+      "text": "LS",
+      "href": "https://lilys271.wixsite.com/portfolio",
+      "target": "_self",
+      "box": {
+        "x": 20,
+        "y": 56,
+        "w": 76,
+        "h": 53
+      }
+    },
+    {
+      "text": "About Me",
+      "href": "https://lilys271.wixsite.com/portfolio/blank-1",
+      "target": "_self",
+      "box": {
+        "x": 930,
+        "y": 70,
+        "w": 72,
+        "h": 22
+      }
+    },
+    {
+      "text": "Past Works",
+      "href": "https://lilys271.wixsite.com/portfolio/blank-3",
+      "target": "_self",
+      "box": {
+        "x": 1031,
+        "y": 70,
+        "w": 82,
+        "h": 22
+      }
+    },
+    {
+      "text": "Advanced",
+      "href": "https://lilys271.wixsite.com/portfolio/blank",
+      "target": "_self",
+      "box": {
+        "x": 1142,
+        "y": 71,
+        "w": 74,
+        "h": 21
+      }
+    },
+    {
+      "text": "",
+      "href": "https://lilys271.wixsite.com/portfolio/blank-2-1-1",
+      "target": "_self",
+      "box": {
+        "x": 124,
+        "y": 274,
+        "w": 512,
+        "h": 683
+      }
+    },
+    {
+      "text": "",
+      "href": "https://lilys271.wixsite.com/portfolio/blank-2-1",
+      "target": "_self",
+      "box": {
+        "x": 660,
+        "y": 274,
+        "w": 512,
+        "h": 683
+      }
+    },
+    {
+      "text": "",
+      "href": "https://lilys271.wixsite.com/portfolio/blank-2",
+      "target": "_self",
+      "box": {
+        "x": 124,
+        "y": 981,
+        "w": 1048,
+        "h": 800
+      }
+    }
+  ],
+  "sections": [
+    {
+      "tag": "section",
+      "id": "comp-mpehemyu_r_comp-mb7ogqqn",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 1280,
+        "h": 86
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mpehemyu_r_comp-mhs1biva",
+      "box": {
+        "x": 0,
+        "y": 34,
+        "w": 1280,
+        "h": 86
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "a",
+      "id": "comp-mpehemyu_r_comp-mriejb8w",
+      "box": {
+        "x": 20,
+        "y": 56,
+        "w": 76,
+        "h": 53
+      },
+      "bg": "rgb(15, 35, 6)",
+      "border": "0px solid rgb(0, 0, 0)",
+      "radius": "6px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mpehemuo2",
+      "box": {
+        "x": 0,
+        "y": 120,
+        "w": 1280,
+        "h": 1713
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mpehemuq3",
+      "box": {
+        "x": 0,
+        "y": 120,
+        "w": 1280,
+        "h": 1713
+      },
+      "bg": "color(srgb 0.360784 0.419608 0.333333)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrigrr7a",
+      "box": {
+        "x": 101,
+        "y": 161,
+        "w": 1083,
+        "h": 1636
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mrihce631",
+      "box": {
+        "x": 101,
+        "y": 161,
+        "w": 1083,
+        "h": 1636
+      },
+      "bg": "color(srgb 0.662745 0.705882 0.643137)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "section",
+      "id": "comp-mpehen1m_r_comp-kbgakgyt",
+      "box": {
+        "x": 0,
+        "y": 1833,
+        "w": 1280,
+        "h": 128
+      },
+      "bg": "rgba(235, 242, 231, 0)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    },
+    {
+      "tag": "div",
+      "id": "comp-mpehen1m_r_comp-mdr17w8k",
+      "box": {
+        "x": 0,
+        "y": 1833,
+        "w": 1280,
+        "h": 128
+      },
+      "bg": "color(srgb 0.0588235 0.137255 0.0235294)",
+      "border": "0px none rgb(0, 0, 0)",
+      "radius": "0px",
+      "shadow": "none"
+    }
+  ]
+}

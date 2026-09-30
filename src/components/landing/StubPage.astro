@@ -1,0 +1,18 @@
+---
+// Placeholder for a landing sub-page that hasn't been written yet.
+import LandingLayout from '../../layouts/LandingLayout.astro';
+import { owner } from '../../data/landing';
+
+interface Props {
+  heading: string;
+}
+const { heading } = Astro.props;
+---
+
+<LandingLayout title={`${heading} | ${owner.name}`}>
+  <main class="l-wrap">
+    <h1 class="l-name">{heading}</h1>
+    <p class="l-tag">Coming soon.</p>
+    <a class="l-back" href="/">← Back</a>
+  </main>
+</LandingLayout>
