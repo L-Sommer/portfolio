@@ -10,3 +10,9 @@
 - Parity (r3, pixel diff vs Wix, threshold 0.2): desktop heights within ±1px on all pages;
   diff 0.3–7.6% (residual = substitute-font glyphs/line breaks). Mobile heights within ±4px except
   the intentional About/Advanced fixes.
+
+## 2026-09-30 (after first deploy)
+- Fixed the Advanced dropdown: it closed while moving the pointer to its links (9px gap below
+  the nav item) and had zero padding (reset rule overrode it). Now flush and matches Wix
+  geometry (panel 1099–1272 × 57–187, links at 84/113/142). Added tests/nav.e2e.test.ts
+  (Playwright); verified it fails on the old CSS. 15/15 tests pass.
