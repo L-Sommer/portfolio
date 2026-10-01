@@ -89,6 +89,8 @@ const priority = node.kind === 'image' && node.dr.y < 400;
       ) : node.lightbox ? (
         <button type="button" data-lightbox={node.lightbox} data-index={node.lightboxIndex} aria-label={`Open ${node.title}`}>
           <Image src={src!} alt={node.alt} widths={widths} sizes={sizes} loading={priority ? 'eager' : 'lazy'} />
+          {/* Wix gallery hover: darkened image with the piece title, faded in. */}
+          <span class="hover-details" aria-hidden="true"><span class="hover-title">{node.title}</span></span>
         </button>
       ) : (
         <Image src={src!} alt={node.alt} widths={widths} sizes={sizes} loading={priority ? 'eager' : 'lazy'} />

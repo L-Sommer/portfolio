@@ -47,6 +47,7 @@ Deliberate differences from the Wix original:
   the Past Works / Advanced headings sit at the top of their card instead of the page bottom; the
   mobile menu links are light-on-dark (Wix rendered them dark-on-dark).
 - Images have descriptive alt text instead of camera file names; favicon is an "LS" mark.
+- Past Works hover titles also appear on keyboard focus (Wix showed them on mouse hover only).
 
 ### Re-capturing from Wix (only while the Wix site is still up)
 

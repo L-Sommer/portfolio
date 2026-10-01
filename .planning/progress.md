@@ -19,3 +19,9 @@
 - Verified deployed site (lilys-folio.vercel.app): dropdown fix live; parity vs Wix identical to
   the local build on all 14 page/viewport checks (live-tests/2026-09-30-parity-live/parity.json).
   One earlier run caught a transient unstyled page during the deploy swap; not reproducible.
+
+## 2026-09-30 (Past Works hover titles)
+- Added the Wix gallery hover: 60% black overlay + piece title (Wix Madefor Display, white,
+  32px desktop / 18px mobile, centred), fading in over 0.6s while rising 5px; also on keyboard
+  focus; no motion with prefers-reduced-motion. Measured on Wix: overlay brightness matches
+  within 0.4/255 per channel at both widths. Added tests/gallery.e2e.test.ts; 19/19 tests pass.

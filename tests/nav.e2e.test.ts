@@ -2,25 +2,14 @@
 // Browser checks on the built site's desktop navigation (run `bun run build` first).
 import { afterAll, beforeAll, describe, expect, test } from 'bun:test';
 import { chromium, type Browser, type Page } from 'playwright';
-import { statSync } from 'node:fs';
-import { join } from 'node:path';
+import { serveDist } from './helpers/serve';
 
-const DIST = join(import.meta.dir, '..', 'dist');
 let server: ReturnType<typeof Bun.serve>;
 let browser: Browser;
 let page: Page;
 
 beforeAll(async () => {
-  // Minimal static server for dist/ with clean URLs, like Vercel.
-  server = Bun.serve({
-    port: 0,
-    fetch(req) {
-      const path = decodeURIComponent(new URL(req.url).pathname);
-      const isFile = (f: string) => statSync(f, { throwIfNoEntry: false })?.isFile() ?? false;
-      const file = [join(DIST, path), join(DIST, path, 'index.html')].find(isFile);
-      return file ? new Response(Bun.file(file)) : new Response('Not found', { status: 404 });
-    },
-  });
+  server = serveDist();
   browser = await chromium.launch();
   page = await browser.newPage({ viewport: { width: 1280, height: 800 } });
   await page.goto(`http://localhost:${server.port}/portfolio/about`, { waitUntil: 'load' });

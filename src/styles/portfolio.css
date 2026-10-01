@@ -11,6 +11,7 @@
 @import '@fontsource/public-sans/400.css';
 @import '@fontsource/public-sans/400-italic.css';
 @import '@fontsource/dm-sans/400.css';
+@import '@fontsource/wix-madefor-display/400.css';
 
 :root {
   --ink: #0f2306; /* header, footer, text */
@@ -20,6 +21,7 @@
   --serif: 'Crimson Pro', 'Adobe Caslon Pro', Georgia, serif;
   --sans: 'Public Sans', Helvetica, Arial, sans-serif;
   --nav: 'DM Sans', Helvetica, Arial, sans-serif;
+  --gallery: 'Wix Madefor Display', Helvetica, Arial, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -65,6 +67,15 @@ img { display: block; }
 .card { background: var(--sage); border-radius: calc(5 * var(--u)); }
 .img img { width: 100%; height: 100%; object-fit: cover; }
 .img a, .img button { display: block; width: 100%; height: 100%; padding: 0; border: 0; background: none; cursor: pointer; }
+.img button { position: relative; overflow: hidden; }
+/* Past Works hover, measured on Wix: 60% black overlay + white title, fading in over 0.6s while
+ * rising 5px. Also shown on keyboard focus. */
+.hover-details {
+  position: absolute; inset: 0; display: grid; place-items: center; background: rgb(0 0 0 / 0.6);
+  opacity: 0; transform: translateY(5px); transition: transform 0.6s, opacity 0.6s; pointer-events: none;
+}
+.img button:hover .hover-details, .img button:focus-visible .hover-details { opacity: 1; transform: none; }
+.hover-title { width: 100%; color: #fff; text-align: center; font: 400 calc(32 * var(--u)) / 1.2 var(--gallery); }
 .frame { border: 3px solid var(--ink); padding: 4px; }
 .frame img { border: 3px solid var(--ink); }
 
@@ -127,9 +138,10 @@ img { display: block; }
   .card.contents { display: contents; }
   .node.abs { position: absolute; left: calc(var(--mx) * var(--u)); top: calc(var(--my) * var(--u)); margin: 0; }
   .node.no-mobile { display: none; }
+  .hover-title { font-size: calc(18 * var(--uf)); line-height: 1.4; }
   .text { font-size: calc(var(--msize) * var(--uf)); line-height: var(--mlh); text-align: var(--malign); letter-spacing: var(--mls); }
 
   .ftr { height: calc(200 * var(--u)); }
 }
 
-@media (prefers-reduced-motion: reduce) { .lb-track { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .lb-track, .hover-details { transition: none; } }

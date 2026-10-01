@@ -8,6 +8,7 @@
         "@fontsource/crimson-pro": "^5.3.0",
         "@fontsource/dm-sans": "^5.3.0",
         "@fontsource/public-sans": "^5.3.0",
+        "@fontsource/wix-madefor-display": "^5.3.0",
         "astro": "^7.3.5",
       },
       "devDependencies": {
@@ -170,6 +171,8 @@
     "@fontsource/dm-sans": ["@fontsource/dm-sans@5.3.0", "", {}, "sha512-lYJtMXXO28q1z+yz+z8XKd0s4hXaa9QdkETzkyD760sidCv5heI86weYA0sx0Nc4pAMAQTUuyf4gO44cYKKS9g=="],
 
     "@fontsource/public-sans": ["@fontsource/public-sans@5.3.0", "", {}, "sha512-kjODI0S3zdv0mBYCIQ8TbBayaiqszpc2UbhJiO3bjIqVVXzcWfHSt2o3WBCLOY3juaGaQoy4MoWCcgmfI5hCuA=="],
+
+    "@fontsource/wix-madefor-display": ["@fontsource/wix-madefor-display@5.3.0", "", {}, "sha512-APPTGYDILe1swgUKE2gfo4PmkPxJiWv2eC3uoT6Tmg0BleklXw5wFAUdgVTD0VQloJvUNx1g0nfdUWGH1ZUvEw=="],
 
     "@img/colour": ["@img/colour@1.1.0", "", {}, "sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ=="],
 
