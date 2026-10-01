@@ -155,16 +155,22 @@ describe('butterfly easter egg', () => {
   const bf = (page: Page) => page.evaluate(() => [...document.querySelectorAll('.bf')].map((e) => {
     const r = e.getBoundingClientRect(); return { cx: r.left + r.width / 2, cy: r.top + r.height / 2, bottom: r.bottom };
   }));
+  /** A point that is actually on a painted top-left leaf (what elementFromPoint reports). */
+  const leafPoint = (page: Page, nth = 0) => page.evaluate((k) => {
+    const hits = [...document.querySelectorAll<SVGPathElement>('.bt-tl .lf')]
+      .map((l) => { const r = l.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2 }; })
+      .filter((p) => p.x > 0 && p.y > 0 && document.elementFromPoint(p.x, p.y)?.classList.contains('lf'));
+    return hits[k % hits.length];
+  }, nth);
+  const visit = async (page: Page, p: { x: number; y: number }) => { await page.mouse.move(p.x - 3, p.y - 2); await page.mouse.move(p.x, p.y); };
 
-  test('hovering the leaves releases one butterfly that perches on the L, then leaves', async () => {
+  test('touching a leaf releases one butterfly that perches on the L, then leaves', async () => {
     const page = await open();
-    await page.mouse.move(140, 130);
-    await page.mouse.move(170, 160);
+    await visit(page, await leafPoint(page, 0));
     await page.waitForTimeout(400);
     expect((await bf(page)).length).toBe(1);
     // More hovering while it is out does not release a second one.
-    await page.mouse.move(110, 110);
-    await page.mouse.move(220, 190);
+    await visit(page, await leafPoint(page, 3));
     await page.waitForTimeout(200);
     expect((await bf(page)).length).toBe(1);
     // Perched on the left end of the L's top serif.
@@ -177,17 +183,50 @@ describe('butterfly easter egg', () => {
     // Flies off and is removed, then can be released again.
     await page.waitForTimeout(7000);
     expect((await bf(page)).length).toBe(0);
-    await page.mouse.move(150, 150);
-    await page.mouse.move(160, 140);
+    await page.mouse.move(800, 800);
+    await visit(page, await leafPoint(page, 1));
     await page.waitForTimeout(300);
     expect((await bf(page)).length).toBe(1);
     await page.close();
   }, 20000);
 
+  for (const [w, h] of [[1672, 941], [1440, 700], [1280, 800], [390, 844]]) {
+    test(`${w}×${h}: the navigation circles and empty paper near the leaves never release it`, async () => {
+      const page = await open({ width: w, height: h });
+      // The mouse starts at (0,0), which is among the leaves; park it somewhere neutral first so
+      // the sweep below doesn't travel across them.
+      await page.mouse.move(w / 2, h - 4);
+      // Sweep the pointer across every circle, the way someone would on the way to clicking one.
+      const circles = await page.$$eval('.lp-circle', (els) => els.map((e) => { const r = e.getBoundingClientRect(); return { x: r.left + r.width / 2, y: r.top + r.height / 2, r: r.width / 2 }; }));
+      for (const c of circles) {
+        for (const [dx, dy] of [[0, 0], [-0.8, 0], [0.8, 0], [0, -0.8], [0, 0.8]]) await page.mouse.move(c.x + dx * c.r, c.y + dy * c.r, { steps: 3 });
+      }
+      // Empty paper inside the leaf layer's bounding box, at least 20px clear of any leaf or stem
+      // (leaves sway a few px, so points right at a leaf's edge would legitimately touch it).
+      const empty = await page.evaluate(() => {
+        const b = document.querySelector('.bt-tl')!.getBoundingClientRect();
+        const clear = (x: number, y: number) => {
+          for (let a = 0; a < 16; a++) for (const r of [0, 10, 20]) {
+            const el = document.elementFromPoint(x + r * Math.cos((a * Math.PI) / 8), y + r * Math.sin((a * Math.PI) / 8));
+            if (!el || el.closest('.bt-tl, .lp-item, .lp-name')) return false;
+          }
+          return true;
+        };
+        const pts: { x: number; y: number }[] = [];
+        for (let y = b.top + 24; y < b.bottom - 4; y += 10) for (let x = b.left + 24; x < b.right - 4; x += 10) if (clear(x, y)) pts.push({ x, y });
+        return pts.filter((_, i) => i % 4 === 0).slice(0, 40);
+      });
+      expect(empty.length).toBeGreaterThanOrEqual(3);
+      for (const p of empty) await page.mouse.move(p.x, p.y);
+      await page.waitForTimeout(300);
+      expect((await bf(page)).length).toBe(0);
+      await page.close();
+    }, 20000);
+  }
+
   test('is skipped for reduced motion', async () => {
     const page = await open({ reducedMotion: 'reduce' });
-    await page.mouse.move(140, 130);
-    await page.mouse.move(170, 160);
+    await visit(page, await leafPoint(page, 0));
     await page.waitForTimeout(500);
     expect((await bf(page)).length).toBe(0);
     await page.close();

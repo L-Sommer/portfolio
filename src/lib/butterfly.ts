@@ -40,7 +40,8 @@ function landingSpot(landing: HTMLElement): V | null {
 
 export function initButterfly() {
   const landing = document.querySelector<HTMLElement>('.landing');
-  const zone = landing?.querySelector<HTMLElement>('.bf-zone');
+  // Pointer events only reach the leaf and stem shapes inside this layer (see landing.css).
+  const zone = landing?.querySelector<SVGSVGElement>('.bt-tl');
   const template = document.getElementById('bf-template') as HTMLTemplateElement | null;
   if (!landing || !zone || !template) return;
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -63,7 +64,7 @@ export function initButterfly() {
       readyAt = performance.now() + COOLDOWN_MS;
     });
   };
-  zone.addEventListener('pointerenter', release);
+  zone.addEventListener('pointerover', release);
   zone.addEventListener('pointermove', release);
   zone.addEventListener('pointerdown', release);
 

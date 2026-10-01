@@ -20,3 +20,8 @@
 - The desktop View of A Classroom parity number flips between ~3.4% and ~7.4% run to run
   (image decode timing); treat a change of exactly that size there as noise.
 - Pattern textures from feTurbulence need stitchTiles='stitch' or tile edges show as seams (caught on the live site at 640/1280px).
+- Easter-egg triggers must hit-test the drawn shapes, not a bounding rectangle: the leaf cluster's
+  box covered empty paper and (on short windows) the LinkedIn circle. Use pointer-events on the
+  SVG shapes (visiblePainted / stroke) instead of an overlay div.
+- Playwright's mouse starts at (0,0); park it before sweeping, or the first move crosses whatever
+  is in the top-left corner (here: the leaves).

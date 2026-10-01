@@ -76,7 +76,8 @@ function budPath(stalk: number, size: number) {
 
 /** SVG markup for a branch (stem, child branches, buds, leaves) inside its sway group. */
 function renderBranch(b: BranchOut, cls: string): string {
-  let s = `<path d="${b.stemD}" fill="none" stroke="#7d876d" stroke-width="${b.spec.stemWidth}" stroke-linecap="round" opacity=".9"/>`;
+  let s = `<path class="stem-hit" d="${b.stemD}" fill="none" stroke="transparent" stroke-width="16" stroke-linecap="round"/>` +
+    `<path d="${b.stemD}" fill="none" stroke="#7d876d" stroke-width="${b.spec.stemWidth}" stroke-linecap="round" opacity=".9"/>`;
   for (const ch of b.children) {
     s += `<g transform="translate(${ch.at[0]} ${ch.at[1]})"><g class="sway" style="${ch.style}">${renderBranch(ch, cls)}</g></g>`;
   }
@@ -93,7 +94,7 @@ function renderBranch(b: BranchOut, cls: string): string {
     s += `<g transform="translate(${l.x} ${l.y}) rotate(${l.rot})"><g class="flutter" style="${l.style}" opacity="${opacity}">` +
       `<path d="M0,0 L${pet},0" stroke="#7d876d" stroke-width="1.2" stroke-linecap="round"/>` +
       `<g transform="translate(${pet} 0)">` +
-      `<path d="${shape}" fill="url(#${cls}-lf-${shade})" stroke="${c.leafDark}" stroke-width=".8" stroke-opacity=".28"/>` +
+      `<path class="lf" d="${shape}" fill="url(#${cls}-lf-${shade})" stroke="${c.leafDark}" stroke-width=".8" stroke-opacity=".28"/>` +
       `<path d="${shape}" fill="url(#${cls}-lf-glow)"/>` +
       `<path d="M0,0 Q${n(len * 0.5)},${n(ty * 0.35)} ${n(len * 0.96)},${n(ty * 0.96)}" fill="none" stroke="#e3e5da" stroke-width=".9" stroke-opacity=".55"/>` +
       `<path d="${veins(len, w, curl)}" fill="none" stroke="#e3e5da" stroke-width=".6" stroke-opacity=".3"/>` +
@@ -184,7 +185,7 @@ const mottle = `url("data:image/svg+xml,${encodeURIComponent(
           </radialGradient>
         </defs>
         {layer.ghosts.map((g) => (
-          <path d={leafPath(g.len, g.w)} transform={`translate(${g.at[0]} ${g.at[1]}) rotate(${g.rot})`} fill="#c3c7b8" opacity={g.opacity} />
+          <path class="lf" d={leafPath(g.len, g.w)} transform={`translate(${g.at[0]} ${g.at[1]}) rotate(${g.rot})`} fill="#c3c7b8" opacity={g.opacity} />
         ))}
         {branches.map((b) => (
           <g transform={`translate(${b.spec.stem[0][0]} ${b.spec.stem[0][1]})`}>

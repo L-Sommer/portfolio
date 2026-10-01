@@ -50,3 +50,6 @@
 - Butterfly redrawn as an original line-drawing style (pale wings, sage outer-edge band, olive
   outline, gold-tipped antennae), ~20% larger, perching on the left end of the L's top serif.
   Fixed vertical centring (element is 64×50, not square).
+- Butterfly trigger tightened: only painted top-left leaves (plus a 16-unit invisible stroke along
+  their stems) release it; the rectangle overlay is gone. Tests sweep every nav circle and clear
+  paper at 4 viewport sizes (incl. 1440×700, where the circle sat inside the old rectangle). 48/48.

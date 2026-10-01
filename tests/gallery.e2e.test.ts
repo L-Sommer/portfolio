@@ -38,6 +38,9 @@ describe('Past Works hover titles', () => {
   test('every piece has its title, hidden until hover', async () => {
     const titles = await page.$$eval('.hover-title', (els) => els.map((e) => e.textContent?.trim()));
     expect(titles).toEqual(TITLES);
+    // Let any load-time transition finish before checking the resting state.
+    await page.mouse.move(5, 5);
+    await page.waitForFunction(() => [...document.querySelectorAll('.hover-details')].every((d) => getComputedStyle(d).opacity === '0'), undefined, { timeout: 2000 }).catch(() => {});
     for (let i = 0; i < TITLES.length; i++) expect((await overlayState(i)).opacity).toBe(0);
   });
 

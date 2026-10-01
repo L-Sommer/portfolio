@@ -57,13 +57,16 @@ body { color: var(--ink); -webkit-font-smoothing: antialiased; }
   transition: opacity 0.3s ease;
 }
 .landing.is-leaving .lp { opacity: 0.55; }
-/* The content column spans the full width; let pointer events reach the leaves (butterfly zone)
- * everywhere except on the actual content. */
+/* The content column spans the full width; let pointer events reach the leaves (butterfly
+ * trigger) everywhere except on the actual content. */
 .lp { pointer-events: none; }
 .lp > * { pointer-events: auto; }
 
 /* ---------- Butterfly easter egg ---------- */
-.bf-zone { position: absolute; top: 0; left: 0; z-index: 1; width: clamp(250px, 41.9vw, 900px); aspect-ratio: 700 / 430; }
+/* Only the painted top-left leaves (and a slightly widened invisible stroke along their stems)
+ * release the butterfly; empty paper and everything else stay inert. */
+.bt-tl .lf { pointer-events: visiblePainted; }
+.bt-tl .stem-hit { pointer-events: stroke; }
 .bf { position: absolute; top: 0; left: 0; z-index: 3; pointer-events: none; will-change: transform; transform-origin: 50% 50%; }
 .bf svg { display: block; width: 100%; height: auto; overflow: visible; filter: drop-shadow(0 3px 3px rgb(74 83 64 / 0.18)); }
 
@@ -165,7 +168,7 @@ body { color: var(--ink); -webkit-font-smoothing: antialiased; }
   .lp-item { --cd: min(18vw, 76px); }
   .lp-label { margin-top: 12px; font-size: 10px; letter-spacing: 0.2em; padding-left: 0.2em; }
   .bt-tr { width: 34vw; height: 28svh; }
-  .bt-tl, .bf-zone { width: min(60vw, 300px); }
+  .bt-tl { width: min(60vw, 300px); }
   .lp-rule { width: 32px; margin-top: 10px; }
   .lp-item:hover .lp-rule, .lp-item:focus-visible .lp-rule { width: 56px; }
   .lp-sub .lp-title { font-size: min(13vw, 60px); }
