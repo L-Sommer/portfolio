@@ -16,3 +16,6 @@
   the nav item) and had zero padding (reset rule overrode it). Now flush and matches Wix
   geometry (panel 1099–1272 × 57–187, links at 84/113/142). Added tests/nav.e2e.test.ts
   (Playwright); verified it fails on the old CSS. 15/15 tests pass.
+- Verified deployed site (lilys-folio.vercel.app): dropdown fix live; parity vs Wix identical to
+  the local build on all 14 page/viewport checks (live-tests/2026-09-30-parity-live/parity.json).
+  One earlier run caught a transient unstyled page during the deploy swap; not reproducible.
