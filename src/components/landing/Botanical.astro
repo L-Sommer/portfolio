@@ -3,7 +3,7 @@
 // SVG from src/data/botanical.ts. Leaves sway via CSS; hills, wash and gold lines drift via a
 // small script. Everything is decorative (aria-hidden) and stills under prefers-reduced-motion.
 import {
-  palette as c, topLeft, bottomRight, hills, hillsViewBox, goldBottom, blob, goldTop, topRightViewBox,
+  palette as c, topLeft, bottomRight, hills, hillsViewBox, goldBottom, blobPath, blobEdge, goldTop, topRightViewBox,
   type BranchLayer, type BranchSpec, type LeafSpec, type BudSpec,
 } from '../../data/botanical';
 import { bezierAt, seeded, windPath, windPoints, type Pt, type WindShape } from '../../lib/curves';
@@ -155,10 +155,11 @@ const mottle = `url("data:image/svg+xml,${encodeURIComponent(
       <pattern id="tex-blob" patternUnits="userSpaceOnUse" width="640" height="420" patternTransform="translate(-120 -60)"><image href={pigment} width="640" height="420" /></pattern>
       <linearGradient id="g-gold-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color={c.goldDeep} /><stop offset=".5" stop-color="#d4b872" /><stop offset="1" stop-color={c.goldDeep} /></linearGradient>
     </defs>
-    <path d={at0(blob)} fill="url(#g-blob)" opacity=".92" data-wind={windData(blob)} />
-    <path d={at0(blob)} fill="url(#tex-blob)" opacity=".5" data-wind={windData(blob)} />
-    <path d={at0(blob)} fill="url(#g-blob-bloom)" data-wind={windData(blob)} />
-    <path d={at0(edgeOnly(blob))} fill="none" stroke="#a4ad95" stroke-width="2" stroke-opacity=".55" vector-effect="non-scaling-stroke" data-wind={windData(edgeOnly(blob))} />
+    {/* The wash is stationary; only the gold line over it drifts. */}
+    <path d={blobPath} fill="url(#g-blob)" opacity=".92" />
+    <path d={blobPath} fill="url(#tex-blob)" opacity=".5" />
+    <path d={blobPath} fill="url(#g-blob-bloom)" />
+    <path d={blobEdge} fill="none" stroke="#a4ad95" stroke-width="2" stroke-opacity=".55" vector-effect="non-scaling-stroke" />
     <path class="bt-gold" d={at0(goldTop)} fill="none" stroke="url(#g-gold-top)" stroke-width="1.5" vector-effect="non-scaling-stroke" data-wind={windData(goldTop)} />
   </svg>
 

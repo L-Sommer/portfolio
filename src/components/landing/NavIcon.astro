@@ -2,11 +2,31 @@
 // Line icons for the landing navigation circles (48×48 grid, drawn to match the design mockup).
 import { siGithub } from 'simple-icons';
 import type { IconName } from '../../data/landing';
+import { smoothPath, type Pt } from '../../lib/curves';
 
 interface Props {
   name: IconName;
 }
 const { name } = Astro.props;
+
+// DNA double helix (matches the mockup): open at both ends, one full turn so the strands cross
+// twice, evenly spaced base-pair rungs, and a small gap in whichever strand passes behind at
+// each crossing so it reads as a twist rather than a flat chain.
+const HX = 24, AMP = 8.4, Y0 = 3, Y1 = 45;
+const span = Y1 - Y0;
+const sx = (sign: 1 | -1, y: number) => HX + sign * AMP * Math.cos((2 * Math.PI * (y - Y0)) / span);
+const strand = (sign: 1 | -1) => {
+  const pts: Pt[] = [];
+  for (let y = Y0; y <= Y1 + 0.001; y += 0.75) pts.push([sx(sign, y), y]);
+  return smoothPath(pts);
+};
+const crossings = [Y0 + span / 4, Y0 + (3 * span) / 4];
+const rungs = Array.from({ length: 13 }, (_, k) => Y0 + 0.4 + k * (span - 0.8) / 12)
+  .map((y) => {
+    const half = Math.abs(AMP * Math.cos((2 * Math.PI * (y - Y0)) / span)) - 2.3;
+    return half > 1.8 ? `M${(HX - half).toFixed(2)},${y.toFixed(2)}H${(HX + half).toFixed(2)}` : '';
+  })
+  .join('');
 ---
 
 <svg class={`nav-icon nav-icon--${name}`} viewBox="0 0 48 48" aria-hidden="true" focusable="false">
@@ -31,11 +51,15 @@ const { name } = Astro.props;
   }
   {
     name === 'research' && (
-      <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-        <path d="M16 3c0 9 16 12 16 21S16 33 16 45" />
-        <path d="M32 3c0 9-16 12-16 21s16 12 16 21" />
-        <path d="M18.5 8h11M21 12.5h6M21 35.5h6M18.5 40h11" stroke-width="1.8" />
-        <path d="M19.5 17.5h9M19.5 30.5h9" stroke-width="1.8" />
+      <g fill="none" stroke="currentColor" stroke-linecap="round">
+        <defs>
+          {/* Strand +1 passes behind at the first crossing, strand -1 at the second. */}
+          <mask id="dna-behind-a" maskUnits="userSpaceOnUse"><rect width="48" height="48" fill="#fff" /><circle cx={HX} cy={crossings[0]} r="2.7" fill="#000" /></mask>
+          <mask id="dna-behind-b" maskUnits="userSpaceOnUse"><rect width="48" height="48" fill="#fff" /><circle cx={HX} cy={crossings[1]} r="2.7" fill="#000" /></mask>
+        </defs>
+        <path d={rungs} stroke-width="1.4" opacity=".8" />
+        <path d={strand(1)} stroke-width="2.1" mask="url(#dna-behind-a)" />
+        <path d={strand(-1)} stroke-width="2.1" mask="url(#dna-behind-b)" />
       </g>
     )
   }

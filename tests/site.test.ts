@@ -91,10 +91,12 @@ describe('built site', () => {
     expect(html.match(/class="lb-slide"/g)?.length).toBe(7);
   });
 
-  test('landing page links to the portfolio, resume, research and GitHub', () => {
+  test('landing page links to the portfolio and GitHub; the rest are "coming soon"', () => {
     const html = htmlFor('/');
-    for (const href of ['/portfolio', '/resume', '/research', 'https://github.com/L-Sommer']) expect(html).toContain(`href="${href}"`);
-    expect(html).toContain('LinkedIn');
+    for (const href of ['/portfolio', 'https://github.com/L-Sommer']) expect(html).toContain(`href="${href}"`);
+    for (const label of ['Resume', 'LinkedIn', 'Biology']) expect(html).toContain(label);
+    expect(html.match(/class="lp-item is-soon"/g)?.length).toBe(3);
+    expect(html).not.toContain('Biological');
   });
 
   test('resume and research stubs link back home', () => {

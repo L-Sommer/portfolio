@@ -38,3 +38,12 @@
   header and mobile menu. Parity vs previous run: all heights identical, diffs +0.00–0.03pts.
 - README rewritten to describe the site as a professional landing page and portfolio.
 - Tests: 40/40 (added curves unit tests, landing browser tests); astro check clean.
+
+## 2026-09-30 (landing refinements)
+- "Biological" → "Biology Research Projects". Resume and Biology Research now use the same
+  "Coming soon" placeholder as LinkedIn (`soon: true` in src/data/landing.ts; hrefs kept).
+- Top-right sage wash is now a fixed two-segment curve (G1-continuous); only its gold line drifts.
+- DNA icon regenerated: open ends, one turn (two crossings with an over/under gap), even rungs.
+- Butterfly easter egg (src/lib/butterfly.ts): hover/tap the top-left leaves → an original
+  sage-and-gold butterfly flies to the top of the "L", flaps 3×, rests, flies off right; one at a
+  time, re-arms after it leaves; skipped for reduced motion. Tests: 44/44.

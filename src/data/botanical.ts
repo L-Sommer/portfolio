@@ -225,10 +225,10 @@ export const goldBottom: WindShape = {
 
 // ---------- Top-right blob + gold line (mockup x 1150–1672, y 0–460) ----------
 export const topRightViewBox: [number, number] = [522, 460];
-export const blob: WindShape = {
-  id: 'blob', seed: 31, period: 13, amp: [9, 8], close: 'L560,-40 Z',
-  edge: [[258, -40], [262, 40], [282, 140], [304, 230], [344, 318], [410, 386], [480, 420], [560, 436]],
-};
+/** Top-right sage wash: a fixed shape, two cubic segments joined smoothly (tangents aligned at
+ * 330,290). The edge path is the same curve without the closing segment. */
+export const blobEdge = 'M258,-40 C262,90 286,200 330,290 C372,372 444,418 560,436';
+export const blobPath = `${blobEdge} L560,-40 Z`;
 export const goldTop: WindShape = {
   id: 'gold-top', seed: 32, period: 10, amp: [5, 6], close: '',
   edge: [[84, -20], [150, 30], [250, 118], [330, 192], [400, 260], [470, 308], [560, 352]],

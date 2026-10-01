@@ -2,6 +2,7 @@
 // Landing page: name, sprig divider and the five navigation circles over animated artwork.
 import LandingLayout from '../layouts/LandingLayout.astro';
 import NavItem from '../components/landing/NavItem.astro';
+import Butterfly from '../components/landing/Butterfly.astro';
 import Sprig from '../components/Sprig.astro';
 import { owner, links } from '../data/landing';
 ---
@@ -16,6 +17,7 @@ import { owner, links } from '../data/landing';
       </ul>
     </nav>
   </main>
+  <Butterfly />
 </LandingLayout>
 
 <script>

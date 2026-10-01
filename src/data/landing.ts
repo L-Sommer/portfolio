@@ -10,16 +10,18 @@ export interface LandingLink {
   /** Shown under the circle; `\n` breaks the line. */
   label: string;
   icon: IconName;
-  /** Omit while the destination doesn't exist yet: the circle renders as "coming soon". */
   href?: string;
   external?: boolean;
+  /** Not ready yet: shows "Coming soon" on hover and doesn't navigate (also implied by no href). */
+  soon?: boolean;
 }
 
 export const links: LandingLink[] = [
-  { label: 'Resume', icon: 'resume', href: '/resume' },
+  // Remove `soon` to switch a circle on once its page is ready.
+  { label: 'Resume', icon: 'resume', href: '/resume', soon: true },
   // TODO: add the LinkedIn profile URL (href + external: true).
   { label: 'LinkedIn', icon: 'linkedin' },
-  { label: 'Biological\nResearch Projects', icon: 'research', href: '/research' },
+  { label: 'Biology\nResearch Projects', icon: 'research', href: '/research', soon: true },
   { label: 'GitHub', icon: 'github', href: 'https://github.com/L-Sommer', external: true },
   { label: 'Art Portfolio', icon: 'art', href: '/portfolio' },
 ];

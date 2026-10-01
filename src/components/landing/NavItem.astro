@@ -1,6 +1,6 @@
 ---
 // One landing navigation circle: icon in a ring, spaced caps label, short rule underneath.
-// Without an href it renders as a "coming soon" placeholder that still shows the hover treatment.
+// With `soon` (or no href) it renders as a "coming soon" placeholder that keeps the hover treatment.
 import NavIcon from './NavIcon.astro';
 import type { IconName } from '../../data/landing';
 
@@ -8,14 +8,15 @@ interface Props {
   label: string;
   href?: string;
   external?: boolean;
+  soon?: boolean;
   icon?: IconName;
 }
-const { label, href, external, icon } = Astro.props;
+const { label, href, external, soon, icon } = Astro.props;
 const flat = label.replace(/\n/g, ' ');
 ---
 
 {
-  href ? (
+  href && !soon ? (
     <a class="lp-item" href={href} {...(external ? { target: '_blank', rel: 'noopener' } : {})}>
       <span class="lp-circle">
         <span class="lp-fill" />
