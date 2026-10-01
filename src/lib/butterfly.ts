@@ -1,4 +1,4 @@
-// Butterfly easter egg: fly from the leaves to the top of the "L", flap, rest, fly off right.
+// Butterfly easter egg: fly from the leaves to the left end of the "L", flap, rest, fly off right.
 // One butterfly at a time; it can be released again once it has left. Skipped for reduced motion.
 type V = { x: number; y: number };
 
@@ -14,7 +14,7 @@ const bez = (a: V, b: V, c: V, d: V, t: number): V => {
   };
 };
 
-/** Top of the "L" stem in the name, relative to the landing container. */
+/** Top-left corner of the "L" (left end of its top serif), relative to the landing container. */
 function landingSpot(landing: HTMLElement): V | null {
   const name = landing.querySelector<HTMLElement>('.lp-name');
   const text = name?.firstChild;
@@ -32,8 +32,10 @@ function landingSpot(landing: HTMLElement): V | null {
   const pad = (r.height - (m.fontBoundingBoxAscent + m.fontBoundingBoxDescent)) / 2;
   const baseline = r.top + pad + m.fontBoundingBoxAscent;
   const top = baseline - m.actualBoundingBoxAscent;
+  // actualBoundingBoxLeft is how far the ink starts left of the pen position (negative = inset).
+  const inkLeft = r.left - m.actualBoundingBoxLeft;
   const L = landing.getBoundingClientRect();
-  return { x: r.left + r.width * 0.3 - L.left, y: top - L.top };
+  return { x: inkLeft + r.width * 0.07 - L.left, y: top - L.top };
 }
 
 export function initButterfly() {
@@ -67,12 +69,14 @@ export function initButterfly() {
 
   function fly(start: V, spot: V, width: number, fontSize: number): Promise<void> {
     const el = template!.content.firstElementChild!.cloneNode(true) as HTMLElement;
-    const size = Math.max(30, Math.min(52, fontSize * 0.3));
+    const size = Math.max(36, Math.min(64, fontSize * 0.36));
+    const height = (size * 50) / 64; // viewBox is 64×50
     el.style.width = `${size}px`;
     landing!.appendChild(el);
     const wings = [...el.querySelectorAll<SVGGElement>('.bf-wing')];
-    // Body bottom is 10.5 viewBox units below the centre; the viewBox is 60 units wide.
-    const perUnit = size / 60;
+    // The viewBox is 64 units wide and centred on the body; the body ends 9.5 units below centre
+    // (the SVG's vertical centre is at y=-1, so the feet sit 10.5 units below the element centre).
+    const perUnit = size / 64;
     const perch: V = { x: spot.x, y: spot.y - 10.5 * perUnit };
     const exit: V = { x: width + size * 2, y: perch.y - 70 - Math.random() * 60 };
     const dist = Math.hypot(perch.x - start.x, perch.y - start.y);
@@ -125,7 +129,7 @@ export function initButterfly() {
         const target = t > tIn && t < tIn + tFlaps + tRest ? 0 : clamp(vx * 4, -22, 22);
         rot += (target - rot) * 0.12;
         prev = p;
-        el.style.transform = `translate(${p.x - size / 2}px, ${p.y - size / 2}px) rotate(${rot}deg) scale(${scale})`;
+        el.style.transform = `translate(${p.x - size / 2}px, ${p.y - height / 2}px) rotate(${rot}deg) scale(${scale})`;
         for (const w of wings) w.setAttribute('transform', `scale(${open.toFixed(3)} 1)`);
         if (t < total) requestAnimationFrame(frame);
         else {

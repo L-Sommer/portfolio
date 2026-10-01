@@ -167,12 +167,12 @@ describe('butterfly easter egg', () => {
     await page.mouse.move(220, 190);
     await page.waitForTimeout(200);
     expect((await bf(page)).length).toBe(1);
-    // Perched on top of the L.
+    // Perched on the left end of the L's top serif.
     await page.waitForTimeout(2600);
     const [perched] = await bf(page);
     const L = await lTop(page);
-    expect(perched.cx).toBeGreaterThan(L.left);
-    expect(perched.cx).toBeLessThan(L.right);
+    expect(perched.cx).toBeGreaterThan(L.left - 4);
+    expect(perched.cx).toBeLessThan(L.left + (L.right - L.left) * 0.25);
     expect(perched.cy).toBeLessThan(L.top + (L.bottom - L.top) * 0.35);
     // Flies off and is removed, then can be released again.
     await page.waitForTimeout(7000);

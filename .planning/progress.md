@@ -47,3 +47,6 @@
 - Butterfly easter egg (src/lib/butterfly.ts): hover/tap the top-left leaves → an original
   sage-and-gold butterfly flies to the top of the "L", flaps 3×, rests, flies off right; one at a
   time, re-arms after it leaves; skipped for reduced motion. Tests: 44/44.
+- Butterfly redrawn as an original line-drawing style (pale wings, sage outer-edge band, olive
+  outline, gold-tipped antennae), ~20% larger, perching on the left end of the L's top serif.
+  Fixed vertical centring (element is 64×50, not square).

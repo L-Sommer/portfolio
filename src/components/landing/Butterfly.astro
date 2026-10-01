@@ -1,30 +1,43 @@
 ---
-// Easter egg: hovering (or tapping) the top-left leaves releases a small sage-and-gold butterfly
-// that lands on the "L" of the name, flaps, rests, then drifts off to the right.
-// The hit zone covers the leaf cluster; the butterfly itself never takes pointer events.
-const fore = 'M-1,-2 C-5,-17 -19,-25 -27,-18 C-31,-13 -27,-5 -18,-1.5 C-12,0.5 -6,0.8 -1,1 Z';
-const hind = 'M-1,2 C-9,2 -20,6 -20,13.5 C-20,20 -12,21 -7,15.5 C-4,12 -2,8 -1,5 Z';
-const wing = (id: string) => `
-  <path d="${fore}" fill="url(#bf-fore-${id})" stroke="#c3a35a" stroke-width=".9" stroke-linejoin="round"/>
-  <path d="${hind}" fill="url(#bf-hind-${id})" stroke="#c3a35a" stroke-width=".8" stroke-linejoin="round"/>
-  <path d="M-1.5,-1 C-8,-6 -15,-12 -22,-16 M-1.5,-0.5 C-8,-3 -15,-5 -24,-8 M-1.5,0 C-7,-0.5 -12,-1 -17,-1.5 M-1.5,3 C-7,5 -12,8 -16,13" fill="none" stroke="#efe6c8" stroke-width=".55" stroke-opacity=".7"/>
-  <circle cx="-22" cy="-15" r="1.3" fill="#c3a35a"/><circle cx="-25.2" cy="-11" r=".9" fill="#c3a35a"/><circle cx="-15" cy="15" r="1" fill="#c3a35a"/>`;
+// Easter egg: hovering (or tapping) the top-left leaves releases a small butterfly that lands on
+// the left end of the "L", flaps, rests, then drifts off to the right.
+// Line-drawing style: pale wings with a sage band along the outer edges, a fine olive outline,
+// slender body and gold-tipped antennae. The hit zone covers the leaf cluster; the butterfly
+// itself never takes pointer events. Left-hand wings are drawn here; the right ones are mirrored.
+
+// Forewing: body → leading edge → pointed apex → outer margin → back to the body.
+const foreOuter = 'M-1.2,-2 C-6,-12 -16,-20.5 -26,-21.2 C-28.6,-21.3 -29.6,-19.2 -28.2,-16.6 C-25.6,-11.2 -22.2,-5.4 -19.2,-1.2 C-13.2,0.5 -6.4,1.2 -1.2,1.5 Z';
+const foreInner = 'M-2.3,-1.7 C-7,-10.4 -14.8,-16.8 -22.4,-17.9 C-23.6,-15.2 -21.6,-9.2 -17.6,-3.6 C-12.2,-1.8 -6.6,-0.5 -2.3,0.3 Z';
+// Hindwing: a rounded lobe with a gently scalloped lower edge.
+const hindOuter = 'M-1.2,2.2 C-6,2.1 -13,2.6 -17.2,4.6 C-20.6,6.6 -20.2,10.8 -18,13.4 C-16.8,15 -15.6,15.4 -14.6,16.6 C-12.6,18.8 -9.4,19.6 -7.4,18.4 C-4.4,16.6 -2.4,11 -1.2,6 Z';
+const hindInner = 'M-2.1,3 C-6,3.1 -11,3.7 -14.1,5.5 C-16.3,7.1 -15.7,10.6 -13.7,12.9 C-11.7,15.1 -9.1,15.6 -7.7,14.6 C-5.1,12.6 -3.1,8.6 -2.1,5.6 Z';
+
+const wing = `
+  <path d="${foreOuter}" fill="url(#bf-band)"/>
+  <path d="${foreInner}" fill="url(#bf-pale)"/>
+  <path d="${hindOuter}" fill="url(#bf-band)"/>
+  <path d="${hindInner}" fill="url(#bf-pale)"/>
+  <path d="${foreOuter}" fill="none" stroke="#4a5340" stroke-width="1" stroke-linejoin="round"/>
+  <path d="${hindOuter}" fill="none" stroke="#4a5340" stroke-width="1" stroke-linejoin="round"/>
+  <path d="${foreInner}" fill="none" stroke="#4a5340" stroke-width=".5" stroke-opacity=".55"/>
+  <path d="${hindInner}" fill="none" stroke="#4a5340" stroke-width=".5" stroke-opacity=".55"/>
+  <circle cx="-25.4" cy="-18.8" r=".9" fill="#c3a35a"/><circle cx="-23.6" cy="-13.6" r=".7" fill="#c3a35a"/>`;
 ---
 
 <div class="bf-zone" aria-hidden="true"></div>
 <template id="bf-template">
   <div class="bf" aria-hidden="true">
-    <svg viewBox="-30 -26 60 50">
+    <svg viewBox="-32 -26 64 50">
       <defs>
-        <linearGradient id="bf-fore-a" x1="1" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#7d876d" /><stop offset=".45" stop-color="#959f86" /><stop offset="1" stop-color="#bfc6b2" /></linearGradient>
-        <linearGradient id="bf-hind-a" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#838d73" /><stop offset="1" stop-color="#c5c9b7" /></linearGradient>
+        <linearGradient id="bf-band" x1="1" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#a3ab95" /><stop offset=".5" stop-color="#8e977f" /><stop offset="1" stop-color="#7a846b" /></linearGradient>
+        <radialGradient id="bf-pale" cx="1" cy=".6" r="1.1"><stop offset="0" stop-color="#e3e6d8" /><stop offset=".55" stop-color="#f4f2ea" /><stop offset="1" stop-color="#faf8f2" /></radialGradient>
       </defs>
-      <g class="bf-wing" data-side="-1" set:html={wing('a')} />
-      <g class="bf-wing" data-side="1" set:html={`<g transform="scale(-1 1)">${wing('a')}</g>`} />
-      <path d="M-.4,-10 C-2,-15 -4.5,-18.5 -6.5,-20.5 M.4,-10 C2,-15 4.5,-18.5 6.5,-20.5" fill="none" stroke="#a98a45" stroke-width=".7" stroke-linecap="round" />
-      <circle cx="-6.6" cy="-20.6" r=".9" fill="#c3a35a" /><circle cx="6.6" cy="-20.6" r=".9" fill="#c3a35a" />
-      <ellipse cx="0" cy="1.5" rx="1.5" ry="9" fill="#4a5340" />
-      <circle cx="0" cy="-8.6" r="1.9" fill="#4a5340" />
+      <g class="bf-wing" data-side="-1" set:html={wing} />
+      <g class="bf-wing" data-side="1" set:html={`<g transform="scale(-1 1)">${wing}</g>`} />
+      <path d="M-.4,-9.4 C-1.6,-13.6 -3.4,-16.4 -5.6,-18.2 M.4,-9.4 C1.6,-13.6 3.4,-16.4 5.6,-18.2" fill="none" stroke="#4a5340" stroke-width=".6" stroke-linecap="round" />
+      <circle cx="-5.7" cy="-18.3" r=".85" fill="#c3a35a" /><circle cx="5.7" cy="-18.3" r=".85" fill="#c3a35a" />
+      <ellipse cx="0" cy="1" rx="1.1" ry="8.5" fill="#4a5340" />
+      <circle cx="0" cy="-8" r="1.6" fill="#4a5340" />
     </svg>
   </div>
 </template>
