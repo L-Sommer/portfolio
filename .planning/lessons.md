@@ -19,3 +19,4 @@
   (%23) double-escapes, the filter breaks and the tile renders solid black.
 - The desktop View of A Classroom parity number flips between ~3.4% and ~7.4% run to run
   (image decode timing); treat a change of exactly that size there as noise.
+- Pattern textures from feTurbulence need stitchTiles='stitch' or tile edges show as seams (caught on the live site at 640/1280px).

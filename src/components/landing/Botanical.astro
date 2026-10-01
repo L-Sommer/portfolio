@@ -111,7 +111,7 @@ const at0 = (s: WindShape) => windPath(s, windPoints(s), 0);
 const edgeOnly = (s: WindShape): WindShape => ({ ...s, close: '' });
 
 const pigment = `data:image/svg+xml,${encodeURIComponent(
-  `<svg xmlns='http://www.w3.org/2000/svg' width='640' height='420'><filter id='p' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.009 .016' numOctaves='4' seed='9'/><feColorMatrix values='0 0 0 0 .36  0 0 0 0 .41  0 0 0 0 .3  0 0 0 1.6 -.62'/></filter><rect width='100%' height='100%' filter='url(#p)'/></svg>`,
+  `<svg xmlns='http://www.w3.org/2000/svg' width='640' height='420'><filter id='p' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.009 .016' numOctaves='4' seed='9' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .36  0 0 0 0 .41  0 0 0 0 .3  0 0 0 1.6 -.62'/></filter><rect width='100%' height='100%' filter='url(#p)'/></svg>`,
 )}`;
 
 // Paper grain + watercolor mottling (static textures).
