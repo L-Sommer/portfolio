@@ -2,6 +2,7 @@
 // Portfolio shell: header (desktop nav with Advanced dropdown, mobile overlay menu), content,
 // footer, and the Past Works lightbox. Replicates the Wix site minus the "Built on Wix" bar.
 import Base from './Base.astro';
+import Sprig from '../components/Sprig.astro';
 import { portfolioNav } from '../data/nav';
 import '../styles/portfolio.css';
 
@@ -20,6 +21,9 @@ const chevron = `<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-
       <a class="logo" href="/portfolio" aria-label="Portfolio home">LS</a>
       <nav aria-label="Portfolio">
         <ul class="nav">
+          <li class="nav-home">
+            <a href="/" aria-label="Back to home"><span class="home-ring"><Sprig /></span><span>Home</span></a>
+          </li>
           {
             portfolioNav.map((item) => (
               <li class={item.children ? 'has-sub' : undefined}>
@@ -36,6 +40,7 @@ const chevron = `<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-
           }
         </ul>
       </nav>
+      <a class="menu-home" href="/" aria-label="Back to home"><span class="home-ring"><Sprig /></span></a>
       <button class="menu-btn" type="button" aria-label="Menu" aria-controls="menu" aria-expanded="false">
         <svg viewBox="0 0 24 10" aria-hidden="true"><path d="M1 2h22M9 8h14" stroke="currentColor" stroke-width="1.2" /></svg>
       </button>
@@ -47,6 +52,7 @@ const chevron = `<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-
       </button>
       <nav class="menu-card" aria-label="Portfolio">
         <ul>
+          <li class="m-home"><a href="/"><Sprig class="m-home-sprig" />Home</a></li>
           {
             portfolioNav.map((item, i) => (
               <li>

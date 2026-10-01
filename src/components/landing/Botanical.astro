@@ -1,0 +1,225 @@
+---
+// Landing page artwork: watercolor-style leaves, sage hills, a sage wash and gold lines, drawn as
+// SVG from src/data/botanical.ts. Leaves sway via CSS; hills, wash and gold lines drift via a
+// small script. Everything is decorative (aria-hidden) and stills under prefers-reduced-motion.
+import {
+  palette as c, topLeft, bottomRight, hills, hillsViewBox, goldBottom, blob, goldTop, topRightViewBox,
+  type BranchLayer, type BranchSpec, type LeafSpec, type BudSpec,
+} from '../../data/botanical';
+import { bezierAt, seeded, windPath, windPoints, type Pt, type WindShape } from '../../lib/curves';
+
+// [dark half, light half] per shade, from the mockup's leaf tones.
+const SHADES = {
+  dark: ['#5d6950', '#7f8a70'],
+  mid: ['#738068', '#97a089'],
+  light: ['#98a08b', '#bfc5b2'],
+} as const;
+
+const rand = seeded(7);
+const n = (v: number) => Math.round(v * 10) / 10;
+/** CSS custom properties for a sway/flutter animation with a random phase. */
+const motion = (amp: number, period: number) =>
+  `--a:${n(amp)}deg;--d:${n(period)}s;--dl:${n(-rand() * period)}s`;
+
+// Leaf widths in botanical.ts are "slender" widths; the mockup's leaves are broad (~0.37 of length).
+const BREADTH = 2.25;
+
+function leafPath(len: number, w0: number, curl = 0) {
+  const w = w0 * BREADTH;
+  const ty = curl * len * 0.18;
+  return `M0,0 C${n(len * 0.2)},${n(-w * 0.55)} ${n(len * 0.66)},${n(-w * 0.43 + ty * 0.6)} ${n(len)},${n(ty)} ` +
+    `C${n(len * 0.66)},${n(w * 0.36 + ty * 0.6)} ${n(len * 0.22)},${n(w * 0.46)} 0,0 Z`;
+}
+function veins(len: number, w0: number, curl = 0) {
+  const w = w0 * BREADTH;
+  const ty = curl * len * 0.18;
+  let d = '';
+  for (const k of [0.22, 0.38, 0.54, 0.7]) {
+    const x = len * k, y = ty * k * k;
+    d += `M${n(x)},${n(y)} Q${n(x + len * 0.07)},${n(y - w * 0.12)} ${n(x + len * 0.12)},${n(y - w * 0.3)} `;
+    d += `M${n(x + len * 0.03)},${n(y)} Q${n(x + len * 0.1)},${n(y + w * 0.1)} ${n(x + len * 0.14)},${n(y + w * 0.24)} `;
+  }
+  return d;
+}
+
+interface LeafOut { x: number; y: number; rot: number; spec: LeafSpec; style: string }
+interface BudOut { x: number; y: number; rot: number; spec: BudSpec; style: string }
+interface BranchOut { spec: BranchSpec; stemD: string; leaves: LeafOut[]; buds: BudOut[]; children: (BranchOut & { at: Pt })[]; style: string }
+
+function layoutBranch(spec: BranchSpec, all: BranchSpec[]): BranchOut {
+  const base = spec.stem[0];
+  // Stem relative to its pivot so the sway group rotates around the stem's base.
+  const rel = spec.stem.map(([x, y]) => [x - base[0], y - base[1]]) as [Pt, Pt, Pt, Pt];
+  const stemD = `M${rel[0].join(',')} C${rel[1].join(',')} ${rel[2].join(',')} ${rel[3].join(',')}`;
+  const leaves = spec.leaves.map((l) => {
+    const { p, angle } = bezierAt(rel, l.t);
+    return { x: n(p[0]), y: n(p[1]), rot: n(angle + l.side * l.ang), spec: l, style: motion(2.5 + rand() * 2.5, 3.2 + rand() * 2.6) };
+  });
+  const buds = (spec.buds ?? []).map((b) => {
+    const { p, angle } = bezierAt(rel, b.t);
+    return { x: n(p[0]), y: n(p[1]), rot: n(angle + b.side * b.ang), spec: b, style: motion(4 + rand() * 3, 2.6 + rand() * 2) };
+  });
+  const children = all
+    .filter((s) => s.parent?.id === spec.id)
+    .map((child) => {
+      const { p } = bezierAt(rel, child.parent!.t);
+      return { ...layoutBranch(child, all), at: [n(p[0]), n(p[1])] as Pt };
+    });
+  return { spec, stemD, leaves, buds, children, style: motion(spec.sway[0], spec.sway[1]) };
+}
+const layoutLayer = (layer: BranchLayer) => layer.branches.filter((b) => !b.parent).map((b) => layoutBranch(b, layer.branches));
+
+function budPath(stalk: number, size: number) {
+  return `M${stalk},0 C${n(stalk + size * 0.2)},${n(-size * 0.55)} ${n(stalk + size * 1.3)},${n(-size * 0.45)} ${n(stalk + size * 1.7)},0 ` +
+    `C${n(stalk + size * 1.3)},${n(size * 0.45)} ${n(stalk + size * 0.2)},${n(size * 0.55)} ${stalk},0 Z`;
+}
+
+/** SVG markup for a branch (stem, child branches, buds, leaves) inside its sway group. */
+function renderBranch(b: BranchOut, cls: string): string {
+  let s = `<path d="${b.stemD}" fill="none" stroke="#7d876d" stroke-width="${b.spec.stemWidth}" stroke-linecap="round" opacity=".9"/>`;
+  for (const ch of b.children) {
+    s += `<g transform="translate(${ch.at[0]} ${ch.at[1]})"><g class="sway" style="${ch.style}">${renderBranch(ch, cls)}</g></g>`;
+  }
+  for (const bud of b.buds) {
+    s += `<g transform="translate(${bud.x} ${bud.y}) rotate(${bud.rot})"><g class="flutter" style="${bud.style}">` +
+      `<path d="M0,0 L${bud.spec.stalk},0" stroke="#8a937a" stroke-width="1" stroke-linecap="round"/>` +
+      `<path d="${budPath(bud.spec.stalk, bud.spec.size)}" fill="#c4c9b6" stroke="#8e977f" stroke-width=".8" stroke-opacity=".7"/></g></g>`;
+  }
+  for (const l of b.leaves) {
+    const { len, w, curl = 0, shade = 'mid', opacity = 0.9 } = l.spec;
+    const ty = curl * len * 0.18;
+    const pet = n(Math.min(8, len * 0.06));
+    const shape = leafPath(len, w, curl);
+    s += `<g transform="translate(${l.x} ${l.y}) rotate(${l.rot})"><g class="flutter" style="${l.style}" opacity="${opacity}">` +
+      `<path d="M0,0 L${pet},0" stroke="#7d876d" stroke-width="1.2" stroke-linecap="round"/>` +
+      `<g transform="translate(${pet} 0)">` +
+      `<path d="${shape}" fill="url(#${cls}-lf-${shade})" stroke="${c.leafDark}" stroke-width=".8" stroke-opacity=".28"/>` +
+      `<path d="${shape}" fill="url(#${cls}-lf-glow)"/>` +
+      `<path d="M0,0 Q${n(len * 0.5)},${n(ty * 0.35)} ${n(len * 0.96)},${n(ty * 0.96)}" fill="none" stroke="#e3e5da" stroke-width=".9" stroke-opacity=".55"/>` +
+      `<path d="${veins(len, w, curl)}" fill="none" stroke="#e3e5da" stroke-width=".6" stroke-opacity=".3"/>` +
+      `</g></g></g>`;
+  }
+  return s;
+}
+
+const tl = layoutLayer(topLeft);
+const br = layoutLayer(bottomRight);
+
+// Wind shapes are rendered at t=0 on the server; the script animates them from there.
+const windData = (s: WindShape) => JSON.stringify({ edge: s.edge, close: s.close, amp: s.amp, period: s.period, seed: s.seed });
+const at0 = (s: WindShape) => windPath(s, windPoints(s), 0);
+const edgeOnly = (s: WindShape): WindShape => ({ ...s, close: '' });
+
+const pigment = `data:image/svg+xml,${encodeURIComponent(
+  `<svg xmlns='http://www.w3.org/2000/svg' width='640' height='420'><filter id='p' x='0' y='0' width='100%' height='100%'><feTurbulence type='fractalNoise' baseFrequency='.009 .016' numOctaves='4' seed='9'/><feColorMatrix values='0 0 0 0 .36  0 0 0 0 .41  0 0 0 0 .3  0 0 0 1.6 -.62'/></filter><rect width='100%' height='100%' filter='url(#p)'/></svg>`,
+)}`;
+
+// Paper grain + watercolor mottling (static textures).
+const grain = `url("data:image/svg+xml,${encodeURIComponent(
+  `<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .34  0 0 0 0 .3  0 0 0 .55 0'/></filter><rect width='100%' height='100%' filter='url(#n)'/></svg>`,
+)}")`;
+const mottle = `url("data:image/svg+xml,${encodeURIComponent(
+  `<svg xmlns='http://www.w3.org/2000/svg' width='900' height='600'><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='.004 .006' numOctaves='3' seed='4'/><feColorMatrix values='0 0 0 0 .55  0 0 0 0 .56  0 0 0 0 .48  0 0 0 .5 -.08'/></filter><rect width='100%' height='100%' filter='url(#m)'/></svg>`,
+)}")`;
+---
+
+<div class="bt" aria-hidden="true" style={`--grain:${grain};--mottle:${mottle}`}>
+  <div class="bt-mottle"></div>
+
+  <svg class="bt-layer bt-hills" viewBox={`0 0 ${hillsViewBox[0]} ${hillsViewBox[1]}`} preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="g-h-pale" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ebeae2" /><stop offset="1" stop-color="#dfdfd3" /></linearGradient>
+      <linearGradient id="g-h-right" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#dcded1" /><stop offset="1" stop-color="#cdd0c1" /></linearGradient>
+      <linearGradient id="g-h-mid" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cbcfbe" /><stop offset=".6" stop-color="#bcc2ad" /><stop offset="1" stop-color="#b4bba5" /></linearGradient>
+      <linearGradient id="g-h-left" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0" stop-color="#d3d6c7" /><stop offset=".5" stop-color="#b8bea9" /><stop offset="1" stop-color="#a9b19b" /></linearGradient>
+      <linearGradient id="g-h-deep" x1="0" y1="0" x2="0.2" y2="1"><stop offset="0" stop-color="#a3ab95" /><stop offset=".55" stop-color="#959f86" /><stop offset="1" stop-color="#87917a" /></linearGradient>
+      <pattern id="tex-hills" patternUnits="userSpaceOnUse" width="640" height="420"><image href={pigment} width="640" height="420" /></pattern>
+      <linearGradient id="g-gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color={c.goldDeep} /><stop offset=".35" stop-color={c.gold} /><stop offset=".6" stop-color="#d8bd78" /><stop offset="1" stop-color={c.goldDeep} /></linearGradient>
+    </defs>
+    {
+      hills.map((h) => (
+        <g opacity={h.opacity}>
+          <path d={at0(h)} fill={h.fill} data-wind={windData(h)} />
+          <path d={at0(h)} fill="url(#tex-hills)" opacity={h.texture} data-wind={windData(h)} />
+          <path d={at0(edgeOnly(h))} fill="none" stroke={h.edgeTint} stroke-width="2.2" stroke-opacity="0.7" vector-effect="non-scaling-stroke" data-wind={windData(edgeOnly(h))} />
+        </g>
+      ))
+    }
+    <path class="bt-gold" d={at0(goldBottom)} fill="none" stroke="url(#g-gold)" stroke-width="1.6" vector-effect="non-scaling-stroke" data-wind={windData(goldBottom)} />
+  </svg>
+
+  <svg class="bt-layer bt-tr" viewBox={`0 0 ${topRightViewBox[0]} ${topRightViewBox[1]}`} preserveAspectRatio="none">
+    <defs>
+      <linearGradient id="g-blob" x1="0" y1="0" x2="1" y2="0.6"><stop offset="0" stop-color="#c6cbba" /><stop offset=".45" stop-color={c.sage} /><stop offset="1" stop-color="#a4ad95" /></linearGradient>
+      <radialGradient id="g-blob-bloom" cx=".72" cy=".38" r=".45"><stop offset="0" stop-color="#d4d8c8" stop-opacity=".7" /><stop offset="1" stop-color="#d4d8c8" stop-opacity="0" /></radialGradient>
+      <pattern id="tex-blob" patternUnits="userSpaceOnUse" width="640" height="420" patternTransform="translate(-120 -60)"><image href={pigment} width="640" height="420" /></pattern>
+      <linearGradient id="g-gold-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color={c.goldDeep} /><stop offset=".5" stop-color="#d4b872" /><stop offset="1" stop-color={c.goldDeep} /></linearGradient>
+    </defs>
+    <path d={at0(blob)} fill="url(#g-blob)" opacity=".92" data-wind={windData(blob)} />
+    <path d={at0(blob)} fill="url(#tex-blob)" opacity=".5" data-wind={windData(blob)} />
+    <path d={at0(blob)} fill="url(#g-blob-bloom)" data-wind={windData(blob)} />
+    <path d={at0(edgeOnly(blob))} fill="none" stroke="#a4ad95" stroke-width="2" stroke-opacity=".55" vector-effect="non-scaling-stroke" data-wind={windData(edgeOnly(blob))} />
+    <path class="bt-gold" d={at0(goldTop)} fill="none" stroke="url(#g-gold-top)" stroke-width="1.5" vector-effect="non-scaling-stroke" data-wind={windData(goldTop)} />
+  </svg>
+
+  {
+    [
+      { cls: 'bt-tl', layer: topLeft, branches: tl },
+      { cls: 'bt-br', layer: bottomRight, branches: br },
+    ].map(({ cls, layer, branches }) => (
+      <svg class:list={['bt-layer', cls]} viewBox={`0 0 ${layer.viewBox[0]} ${layer.viewBox[1]}`}>
+        <defs>
+          {Object.entries(SHADES).map(([k, [a, b]]) => (
+            <linearGradient id={`${cls}-lf-${k}`} x1="0" y1="0" x2="0.1" y2="1">
+              <stop offset="0" stop-color={b} />
+              <stop offset=".46" stop-color={b} stop-opacity=".92" />
+              <stop offset=".54" stop-color={a} />
+              <stop offset="1" stop-color={a} stop-opacity=".88" />
+            </linearGradient>
+          ))}
+          <radialGradient id={`${cls}-lf-glow`} cx=".75" cy=".35" r=".6">
+            <stop offset="0" stop-color="#fff" stop-opacity=".18" />
+            <stop offset="1" stop-color="#fff" stop-opacity="0" />
+          </radialGradient>
+        </defs>
+        {layer.ghosts.map((g) => (
+          <path d={leafPath(g.len, g.w)} transform={`translate(${g.at[0]} ${g.at[1]}) rotate(${g.rot})`} fill="#c3c7b8" opacity={g.opacity} />
+        ))}
+        {branches.map((b) => (
+          <g transform={`translate(${b.spec.stem[0][0]} ${b.spec.stem[0][1]})`}>
+            <g class="sway" style={b.style} set:html={renderBranch(b, cls)} />
+          </g>
+        ))}
+      </svg>
+    ))
+  }
+
+  <div class="bt-grain"></div>
+</div>
+
+<script>
+  import { windPath, windPoints, type WindShape } from '../../lib/curves';
+
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const paths = [...document.querySelectorAll<SVGPathElement>('.bt [data-wind]')].map((el) => {
+    const s = JSON.parse(el.dataset.wind!) as WindShape;
+    return { el, s, pts: windPoints(s) };
+  });
+  let raf = 0;
+  let last = 0;
+  const t0 = performance.now();
+  const frame = (now: number) => {
+    raf = requestAnimationFrame(frame);
+    if (now - last < 1000 / 30) return; // 30fps is plenty for a breeze
+    last = now;
+    const t = (now - t0) / 1000;
+    for (const p of paths) p.el.setAttribute('d', windPath(p.s, p.pts, t));
+  };
+  const sync = () => {
+    cancelAnimationFrame(raf);
+    if (!reduce.matches && !document.hidden) raf = requestAnimationFrame(frame);
+  };
+  reduce.addEventListener('change', sync);
+  document.addEventListener('visibilitychange', sync);
+  sync();
+</script>

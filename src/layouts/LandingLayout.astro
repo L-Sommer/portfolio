@@ -1,9 +1,11 @@
 ---
-// Shell for the landing page and its sub-pages (resume, research). Intentionally plain:
-// the landing design will be iterated on separately from the portfolio replica.
+// Shell for the landing page and its sub-pages (resume, research): paper background with the
+// animated botanical artwork behind the content.
 import Base from './Base.astro';
-import '@fontsource/crimson-pro/600.css';
-import '@fontsource/public-sans/400.css';
+import Botanical from '../components/landing/Botanical.astro';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/500.css';
 import '../styles/landing.css';
 
 interface Props {
@@ -15,6 +17,7 @@ const { title, description } = Astro.props;
 
 <Base title={title} description={description}>
   <div class="landing">
+    <Botanical />
     <slot />
   </div>
 </Base>

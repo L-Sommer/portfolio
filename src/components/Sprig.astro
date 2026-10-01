@@ -1,0 +1,22 @@
+---
+// Small leaf sprig mark (from the landing page divider). Inherits colour via currentColor.
+interface Props {
+  class?: string;
+}
+const { class: cls } = Astro.props;
+// Leaf shape pointing along +x from the origin; placed along the stem below.
+const leaf = 'M0,0 C2.6,-3.4 7.4,-3.6 11,0 C7.4,3.2 2.6,3 0,0Z';
+const leaves = [
+  [31.5, 7.5, -48, 1.05], // tip
+  [27.2, 12.5, -98, 0.9], [27.2, 12.5, 2, 0.9],
+  [22, 18.5, -104, 0.95], [22, 18.5, 8, 0.95],
+  [16.6, 24.6, -108, 0.85], [16.6, 24.6, 14, 0.85],
+];
+---
+
+<svg class:list={['sprig', cls]} viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+  <path d="M7 36C14 28 22 18 31.5 7.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+  {leaves.map(([x, y, rot, sc], i) => (
+    <path d={leaf} fill="currentColor" opacity={i % 2 ? 0.82 : 1} transform={`translate(${x} ${y}) rotate(${rot}) scale(${sc})`} />
+  ))}
+</svg>

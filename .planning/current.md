@@ -1,6 +1,6 @@
 # Current
 
-**Phase:** replica built and verified locally → push to GitHub → connect Vercel.
+**Phase:** new landing page live; portfolio pages have a Home link.
 
 Next:
 1. Vercel: point project `lilys-folio` at GitHub repo `L-Sommer/portfolio` (owner action).

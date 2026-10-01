@@ -81,6 +81,7 @@ describe('built site', () => {
         expect(html).toContain(`href="${href}"`);
       }
       expect(html).not.toMatch(/Built on/);
+      expect(html).toMatch(/<a href="\/" aria-label="Back to home">/);
     }
   });
 
@@ -90,9 +91,13 @@ describe('built site', () => {
     expect(html.match(/class="lb-slide"/g)?.length).toBe(7);
   });
 
-  test('landing page links to the portfolio and all stubs', () => {
+  test('landing page links to the portfolio, resume, research and GitHub', () => {
     const html = htmlFor('/');
     for (const href of ['/portfolio', '/resume', '/research', 'https://github.com/L-Sommer']) expect(html).toContain(`href="${href}"`);
     expect(html).toContain('LinkedIn');
+  });
+
+  test('resume and research stubs link back home', () => {
+    for (const route of ['/resume', '/research']) expect(htmlFor(route)).toContain('href="/"');
   });
 });

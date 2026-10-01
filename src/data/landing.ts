@@ -1,23 +1,25 @@
-// Landing page content. Temporary: edit here while the landing design is iterated on.
+// Landing page content: the name and the five navigation circles, in display order.
 export const owner = {
   name: 'Lily Sommer',
-  tagline: 'Artist · Student · Researcher',
+  description: 'Lily Sommer: resume, biological research projects, GitHub and art portfolio.',
 };
 
+export type IconName = 'resume' | 'linkedin' | 'research' | 'github' | 'art';
+
 export interface LandingLink {
+  /** Shown under the circle; `\n` breaks the line. */
   label: string;
-  href: string;
-  description: string;
-  /** Not ready yet: rendered as a placeholder instead of a live link. */
-  stub?: boolean;
+  icon: IconName;
+  /** Omit while the destination doesn't exist yet: the circle renders as "coming soon". */
+  href?: string;
   external?: boolean;
 }
 
 export const links: LandingLink[] = [
-  { label: 'Art Portfolio', href: '/portfolio', description: 'Paintings, collage, digital work and ceramics' },
-  { label: 'Resume', href: '/resume', description: 'Coming soon', stub: true },
-  { label: 'Research', href: '/research', description: 'Coming soon', stub: true },
-  // TODO: replace with the real LinkedIn profile URL.
-  { label: 'LinkedIn', href: '#', description: 'Profile link coming soon', stub: true, external: true },
-  { label: 'GitHub', href: 'https://github.com/L-Sommer', description: 'Code and projects', external: true },
+  { label: 'Resume', icon: 'resume', href: '/resume' },
+  // TODO: add the LinkedIn profile URL (href + external: true).
+  { label: 'LinkedIn', icon: 'linkedin' },
+  { label: 'Biological\nResearch Projects', icon: 'research', href: '/research' },
+  { label: 'GitHub', icon: 'github', href: 'https://github.com/L-Sommer', external: true },
+  { label: 'Art Portfolio', icon: 'art', href: '/portfolio' },
 ];

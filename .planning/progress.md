@@ -25,3 +25,16 @@
   32px desktop / 18px mobile, centred), fading in over 0.6s while rising 5px; also on keyboard
   focus; no motion with prefers-reduced-motion. Measured on Wix: overlay brightness matches
   within 0.4/255 per channel at both widths. Added tests/gallery.e2e.test.ts; 19/19 tests pass.
+
+## 2026-09-30 (new landing page)
+- Replaced the stub landing page with the design in design/landing-reference.png: name, sprig
+  divider and five navigation circles (Resume, LinkedIn, Biological Research Projects, GitHub,
+  Art Portfolio) over an SVG botanical scene in the mockup's sampled palette. Leaves sway and
+  flutter (CSS, per-stem pivots verified), hills/wash/gold lines drift (JS path morph, 30fps);
+  name and navigation are static. Hover: gold halo, sage glow, lift, gold underline; click: press +
+  ripple, short delay, navigate. Reduced motion stills everything. Phone layout: 2-column nav.
+- Resume/research stubs restyled to match, with a "Back home" circle.
+- Portfolio pages: added only a "Home" back link (sprig in a ring) to the desktop nav, mobile
+  header and mobile menu. Parity vs previous run: all heights identical, diffs +0.00–0.03pts.
+- README rewritten to describe the site as a professional landing page and portfolio.
+- Tests: 40/40 (added curves unit tests, landing browser tests); astro check clean.

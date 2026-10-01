@@ -1,6 +1,8 @@
 ---
-// Placeholder for a landing sub-page that hasn't been written yet.
+// Placeholder for a landing sub-page that hasn't been written yet, in the landing page style.
 import LandingLayout from '../../layouts/LandingLayout.astro';
+import NavItem from './NavItem.astro';
+import Sprig from '../Sprig.astro';
 import { owner } from '../../data/landing';
 
 interface Props {
@@ -10,9 +12,18 @@ const { heading } = Astro.props;
 ---
 
 <LandingLayout title={`${heading} | ${owner.name}`}>
-  <main class="l-wrap">
-    <h1 class="l-name">{heading}</h1>
-    <p class="l-tag">Coming soon.</p>
-    <a class="l-back" href="/">← Back</a>
+  <main class="lp lp-sub">
+    <p class="lp-kicker"><a href="/">{owner.name}</a></p>
+    <h1 class="lp-title">{heading}</h1>
+    <div class="lp-divider" aria-hidden="true"><Sprig /></div>
+    <p class="lp-note">Coming soon</p>
+    <NavItem label="Back home" href="/">
+      <Sprig slot="icon" class="nav-icon" />
+    </NavItem>
   </main>
 </LandingLayout>
+
+<script>
+  import { bindNavCircles } from '../../lib/nav-circles';
+  bindNavCircles();
+</script>

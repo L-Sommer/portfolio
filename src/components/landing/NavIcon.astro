@@ -1,0 +1,62 @@
+---
+// Line icons for the landing navigation circles (48×48 grid, drawn to match the design mockup).
+import { siGithub } from 'simple-icons';
+import type { IconName } from '../../data/landing';
+
+interface Props {
+  name: IconName;
+}
+const { name } = Astro.props;
+---
+
+<svg class={`nav-icon nav-icon--${name}`} viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+  {
+    name === 'resume' && (
+      <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+        <path d="M12 5h17l8 8v30H12z" />
+        <path d="M29 5v8h8" />
+        <path d="M17 19h8M17 25h15M17 30h15M17 35h9" />
+        <path d="M28.5 37.5l2.2 2.2 4.3-4.6" />
+      </g>
+    )
+  }
+  {
+    name === 'linkedin' && (
+      <g fill="currentColor">
+        <rect x="9" y="18" width="6.2" height="20" rx="0.6" />
+        <circle cx="12.1" cy="11.6" r="3.6" />
+        <path d="M20 18h5.9v2.9c1.1-2 3.4-3.4 6.4-3.4 5 0 6.7 3.1 6.7 8.2V38h-6.2V26.9c0-2.6-.8-4.2-3.1-4.2-2.5 0-3.5 1.9-3.5 4.4V38H20z" />
+      </g>
+    )
+  }
+  {
+    name === 'research' && (
+      <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+        <path d="M16 3c0 9 16 12 16 21S16 33 16 45" />
+        <path d="M32 3c0 9-16 12-16 21s16 12 16 21" />
+        <path d="M18.5 8h11M21 12.5h6M21 35.5h6M18.5 40h11" stroke-width="1.8" />
+        <path d="M19.5 17.5h9M19.5 30.5h9" stroke-width="1.8" />
+      </g>
+    )
+  }
+  {
+    name === 'github' && (
+      <g transform="translate(5 5) scale(1.5833)" fill="currentColor">
+        <path d={siGithub.path} />
+      </g>
+    )
+  }
+  {
+    name === 'art' && (
+      <g fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M24 7C13.5 7 5.5 14.6 5.5 24c0 8.8 7.2 16.5 15.6 16.5 3.1 0 4.2-1.9 3.4-4.3-.9-2.7.4-5.2 3.4-5.2h3.4c3.4 0 6.2-2.5 6.7-5.9" />
+        <circle cx="14" cy="21" r="2.4" fill="currentColor" stroke="none" />
+        <circle cx="19" cy="14" r="2.4" fill="currentColor" stroke="none" />
+        <circle cx="27.5" cy="13" r="2.4" fill="currentColor" stroke="none" />
+        <circle cx="13.5" cy="29.5" r="2.4" fill="currentColor" stroke="none" />
+        <path d="M43.5 4.5L28 22.5" />
+        <path d="M28 22.5c-2.6-.4-5 1.4-5.2 4.1-.1 1.6-.9 2.7-2.3 3.4 3.4 1.6 7.7.9 8.9-2.6.5-1.5-.1-3.4-1.4-4.9z" fill="currentColor" />
+      </g>
+    )
+  }
+</svg>
